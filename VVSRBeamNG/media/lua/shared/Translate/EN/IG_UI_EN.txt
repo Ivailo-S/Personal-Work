@@ -1,0 +1,15 @@
+IG_UI_EN = {
+
+IGUI_VehicleNameCarLights = "Ranger Ibishu Hopper",
+IGUI_VehicleNameCarLightsPolice = "Gavril Grand Marshal Police Package",
+IGUI_VehicleNameCarNormal = "Bruckell LeGran S V6",
+IGUI_VehicleNamePickUpTruckLightsFire = "Gavril Roamer Fire V8 4WD", 
+IGUI_VehicleNamePickUpTruckLights = "Gavril Roamer Fleet I6,
+IGUI_VehicleNamePickUpTruck = "Gavril Roamer Fleet I6",
+IGUI_VehicleNamePickUpVanLightsFire = "Gavril Roamer Fire V8 4WD",
+IGUI_VehicleNamePickUpVanLights = "Gavril Roamer Ranger I6 4WD",
+IGUI_VehicleNamePickUpVanLightsPolice = "Gavril Roamer Sheriff V8 4WD",
+IGUI_VehicleNamePickUpVan = "Gavril Roamer Fleet I6",
+IGUI_VehicleNameSmallCar = "Ibishu Covet Dxi",
+IGUI_VehicleNameSUV = "Gavril Roamer XT 4WD",
+}

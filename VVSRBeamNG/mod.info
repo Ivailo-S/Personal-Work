@@ -1,0 +1,5 @@
+name=Vanilla Vehicle Story Replacer (BeamNG Cars)
+id=VVSRBeamNG
+description= Completely overwrites and replaces (most of) the generic vanilla vehicle story events with a BeamNG car counterpart to fill in its place. This mod will be updated overtime to accomodate any future BeamNG vehicles to further fufill certain events, and is generally recommended to have the full BeamPZ catalogue of mods to go along with it if you're going to be using this (semi-rough) patch.
+poster=preview.png
+require=GavrilGrandMarshal,Roamer,LeGran,IbishuCovet,IbishuHopper

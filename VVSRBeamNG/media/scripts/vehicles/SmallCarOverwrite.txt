@@ -1,0 +1,531 @@
+module Base
+{
+	vehicle SmallCar
+	{
+		mechanicType = 1,
+		offRoadEfficiency = 0.8,
+		engineRepairLevel = 4,
+		playerDamageProtection = 0.9,
+
+		model
+		{
+			file = IbishuCovetDxiBase,
+			scale = 1.7500,
+			offset = 0.0000 0.2571 0.0571,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiA_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiB_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiC_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiD_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiE_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiF_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiG_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiH_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiI_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiJ_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiK_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiL_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiM_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiB_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiI_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiG_Shell,
+		}
+
+		skin
+		{
+			texture = vehicles/IbishuCovetDxiM_Shell,
+		}
+
+		textureMask = vehicles/IbishuCovet_mask,
+		textureLights = vehicles/IbishuCovet_Lights,
+		textureDamage1Overlay = vehicles/IbishuCovet_Overlays_Damaged01,
+		textureDamage2Overlay = vehicles/IbishuCovet_Overlays_Damaged01,
+		textureDamage1Shell = vehicles/IbishuCovet_Shell_Damaged01,
+		textureDamage2Shell = vehicles/IbishuCovet_Shell_Damaged02,
+		textureRust = vehicles/IbishuCovet_Rust,
+
+		sound
+		{
+			engine = VehicleEngineSmallCar,
+			engineStart = VehicleEngineSmallCar,
+			engineTurnOff = VehicleEngineSmallCar,
+			horn = VehicleHornStandard,
+			ignitionFail = VehicleIgnitionFailSmallCar,
+		}
+
+		extents = 0.8229 0.5714 1.9886,
+		mass = 630,
+		physicsChassisShape = 0.8229 0.5714 1.9886,
+		centerOfMassOffset = 0.0000 0.2857 0.0000,
+		shadowExtents = 0.8448 2.0436,
+		shadowOffset = 0.0000 0.0000,
+		engineForce = 3200,
+		engineQuality = 70,
+		engineLoudness = 45,
+		maxSpeed = 75f,
+		brakingForce = 62,
+		gearRatioCount = 5,
+		gearRatioR = 3.8,
+		gearRatio1 = 3.8,
+		gearRatio2 = 3.0,
+		gearRatio3 = 2.3,
+		gearRatio4 = 1.8,
+		gearRatio5 = 1.3,
+		extentsOffset = 0.2 0.8,
+		stoppingMovementForce = 2.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 30,
+		suspensionCompression = 2.83,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 10,
+		suspensionRestLength = 0.2,
+		wheelFriction = 1.5f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 4,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3714 -0.2971 0.6057,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3714 -0.2971 0.6057,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.3714 -0.2971 -0.7257,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.3714 -0.2971 -0.7257,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		template = PassengerSeat4,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.1714 -0.2000 -0.1143,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.5657 -0.4171 -0.0114,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.1714 -0.2000 -0.1143,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.5657 -0.4171 -0.0114,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		passenger RearLeft
+		{
+			position inside
+			{
+				offset = 0.1714 -0.2000 -0.5657,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+			}
+		}
+
+		passenger RearRight
+		{
+			position inside
+			{
+				offset = -0.1714 -0.2000 -0.5657,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+			}
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.6343 -0.0114 0.4571 0.6971,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6343 -0.0114 0.4571 0.6971,
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 1.1771 0.7886 0.4457,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.2343 0.7886 0.4457,
+		}
+
+		area GasTank
+		{
+			xywh = -0.6343 -0.6686 0.4571 0.5143,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.6343 0.5943 0.4571 0.5143,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.6343 0.5943 0.4571 0.5143,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.6343 -0.6686 0.4571 0.5143,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.6343 -0.6686 0.4571 0.5143,
+		}
+
+		template = TrunkDoor,
+
+		part TrunkDoor
+		{
+			anim Open
+			{
+				sound = VehicleTrunkOpenSportsCar,
+			}
+
+			anim Close
+			{
+				sound = VehicleTrunkCloseSportsCar,
+			}
+
+			anim Lock
+			{
+				sound = LockVehicleDoorSportsCar,
+			}
+
+			anim Unlock
+			{
+				sound = UnlockVehicleDoorSportsCar,
+			}
+
+			anim IsLocked
+			{
+				sound = VehicleDoorIsLockedSportsCar,
+			}
+		}
+
+		template = Trunk/part/TruckBed,
+
+		part TruckBed
+		{
+			itemType = Base.SmallTrunk,
+
+			container
+			{
+				capacity = 42,
+			}
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+		template = Seat/part/SeatRearLeft,
+		template = Seat/part/SeatRearRight,
+
+		part SeatRearLeft
+		{
+			table install
+			{
+				area = SeatFrontLeft,
+			}
+
+			table uninstall
+			{
+				area = SeatFrontLeft,
+			}
+		}
+
+		part SeatRearRight
+		{
+			table install
+			{
+				area = SeatFrontRight,
+			}
+
+			table uninstall
+			{
+				area = SeatFrontRight,
+			}
+		}
+
+		part Seat*
+		{
+			container
+			{
+				capacity = 20,
+			}
+
+			table install
+			{
+				skills = Mechanics:2,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+			}
+		}
+
+		template = GloveBox,
+
+		part GloveBox
+		{
+			container
+			{
+				capacity = 8,
+			}
+		}
+
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+		template = EngineDoor,
+
+		part EngineDoor
+		{
+			mechanicRequireKey = false,
+		}
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		part Muffler
+		{
+			table install
+			{
+				skills = Mechanics:4,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:4,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearLeft,
+		template = Window/part/WindowRearRight,
+
+		part WindowRearLeft
+		{
+			area = TireRearLeft,
+			parent =,
+
+			table install
+			{
+				requireInstalled =,
+			}
+		}
+
+		part WindowRearRight
+		{
+			area = TireRearRight,
+			parent =,
+
+			table install
+			{
+				requireInstalled =,
+			}
+		}
+
+		part Windshield*
+		{
+			table install
+			{
+				skills = Mechanics:4,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:4,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = IbishuCovetWheelFL,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = IbishuCovetWheelFR,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = IbishuCovetWheelRL,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = IbishuCovetWheelRR,
+			}
+		}
+
+		template = Brake,
+		template = Suspension,
+		template = Radio,
+		template = Headlight,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.2857 -1.0857,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.2857 1.0000,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

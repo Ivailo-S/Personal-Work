@@ -1,0 +1,8 @@
+IG_UI_EN = {
+	IGUI_VehicleNameGavrilGrandMarshal = "Gavril Grand Marshal"
+	IGUI_VehicleNameGavrilGrandMarshalLuxe = "Gavril Grand Marshal Luxe"
+	IGUI_VehicleNameGavrilGrandMarshalTaxi = "Gavril Grand Marshal Fleet Taxi"
+	IGUI_VehicleNameGavrilGrandMarshalSport = "Gavril Grand Marshal Sport"
+	IGUI_VehicleNameGavrilGrandMarshalUndercover = "Gavril Grand Marshal Undercover Package"
+	IGUI_VehicleNameGavrilGrandMarshalPolice = "Gavril Grand Marshal Police Package"
+	IGUI_VehicleNameGavrilGrandMarshalInterceptor = "Gavril Grand Marshal Interceptor Package"

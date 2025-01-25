@@ -1,0 +1,454 @@
+module Base
+{
+	model PU_FL_Window_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_FR_Window_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_RL_Window_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowrearlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_RR_Window_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowrearlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_R_Window_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowlightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_FL_Window_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_FR_Window_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_RL_Window_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowrearheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_RR_Window_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowrearheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_R_Window_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|windowheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Bullbar_LongStandardRoamer
+    {
+        mesh = vehicles/LongStandardRoamerArmor|pushbar_1,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Chains_FL_LongStandardRoamer
+    {
+        mesh = vehicles/LongStandardRoamerArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Chains_FR_LongStandardRoamer
+    {
+        mesh = vehicles/LongStandardRoamerArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Chains_RL_LongStandardRoamer
+    {
+        mesh = vehicles/LongStandardRoamerArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Chains_RR_LongStandardRoamer
+    {
+        mesh = vehicles/LongStandardRoamerArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|hoodlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Trunk_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|trunklightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FL_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FR_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Door_RL_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorrearlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Door_RR_LongStandardRoamer_Light
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorrearlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Trunk_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|trunkheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FL_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FR_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Door_RL_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorrearheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	model PU_Door_RR_LongStandardRoamer_Heavy
+    {
+        mesh = vehicles/LongStandardRoamerArmor|doorrearheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Rack_LongStandardRoamer
+    {
+        mesh = vehicles/LongStandardRoamerArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.0041,
+    }
+
+	template vehicle PU_Armor_LongStandardRoamer
+	{
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontLeft,
+		part ATA2ProtectionWindowFrontLeft
+		{
+			model Light
+			{
+				file = PU_FL_Window_LongStandardRoamer_Light,
+			}
+			model Heavy
+			{
+				file = PU_FL_Window_LongStandardRoamer_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontRight,
+		part ATA2ProtectionWindowFrontRight
+		{
+			model Light
+			{
+				file = PU_FR_Window_LongStandardRoamer_Light,
+			}
+			model Heavy
+			{
+				file = PU_FR_Window_LongStandardRoamer_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowRearLeft,
+		part ATA2ProtectionWindowRearLeft
+		{
+			model Light
+			{
+				file = PU_RL_Window_LongStandardRoamer_Light,
+			}
+			model Heavy
+			{
+				file = PU_RL_Window_LongStandardRoamer_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowRearRight,
+		part ATA2ProtectionWindowRearRight
+		{
+			model Light
+			{
+				file = PU_RR_Window_LongStandardRoamer_Light,
+			}
+			model Heavy
+			{
+				file = PU_RR_Window_LongStandardRoamer_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindshield,
+        part ATA2ProtectionWindshield
+        {
+            model Light
+            {
+                file = PU_F_Window_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_F_Window_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWindshieldRear,
+        part ATA2ProtectionWindshieldRear
+        {
+            model Light
+            {
+                file = PU_R_Window_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_R_Window_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionTrunk,
+        part ATA2ProtectionTrunk
+        {
+            model Light
+            {
+                file = PU_Trunk_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_Trunk_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontLeft,
+        part ATA2ProtectionDoorFrontLeft
+        {
+            model Light
+            {
+                file = PU_Door_FL_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FL_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontRight,
+        part ATA2ProtectionDoorFrontRight
+        {
+            model Light
+            {
+                file = PU_Door_FR_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FR_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorRearLeft,
+        part ATA2ProtectionDoorRearLeft
+        {
+            model Light
+            {
+                file = PU_Door_RL_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_RL_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorRearRight,
+        part ATA2ProtectionDoorRearRight
+        {
+            model Light
+            {
+                file = PU_Door_RR_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_RR_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionHood,
+        part ATA2ProtectionHood
+        {
+            model Light
+            {
+                file = PU_Hood_LongStandardRoamer_Light,
+            }
+            model Heavy
+            {
+                file = PU_Hood_LongStandardRoamer_Heavy,
+            }
+        }
+
+        template = ATA2Bullbars/part/ATA2Bullbar,
+        part ATA2Bullbar
+        {
+            model Large
+            {
+                file = PU_Bullbar_LongStandardRoamer,
+            }
+        }
+
+        part Tire*
+        {
+            setAllModelsVisible = false,
+            table install
+            {
+                complete = ATATuning2.InstallComplete.TireNotAllModelsVisible,
+            }
+            
+            table uninstall
+            {
+                complete = ATATuning2.UninstallComplete.TireNotAllModelsVisible,
+            }
+            
+            lua
+            {
+                create = ATATuning2.Create.TireNotAllModelsVisible,
+                init = ATATuning2.Init.TireNotAllModelsVisible,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = Vehicles.Update.Tire,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWheels,
+        part TireFrontLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FL_LongStandardRoamer,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RL_LongStandardRoamer,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FR_LongStandardRoamer,
+            }
+        }
+
+        part TireRearRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RR_LongStandardRoamer,
+            }
+        }
+
+        template = ATA2InteractiveTrunk/part/ATA2InteractiveTrunkRoofRack,
+        part ATA2InteractiveTrunkRoofRack
+        {
+            model Default
+            {
+                file = PU_Rack_LongStandardRoamer,
+            }
+        }
+	}
+}

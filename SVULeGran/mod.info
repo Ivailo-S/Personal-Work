@@ -1,0 +1,6 @@
+name=Standardized Vehicle Upgrades - Bruckell LeGran
+id=StandardizedVehicleUpgradesLeGran
+description=Adds armor support to the LeGran via Nightscale's Standardized Vehicle Upgrades.
+description= This add-on uses the vanilla car subset mod for its assets, as well as giving armor support to all the other BeamNG cars.
+poster=poster.png
+require=tsarslib,StandardizedVehicleUpgradesCore,StandardizedVehicleUpgradesV

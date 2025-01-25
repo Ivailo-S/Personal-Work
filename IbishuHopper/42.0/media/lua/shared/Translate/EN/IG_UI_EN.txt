@@ -1,0 +1,19 @@
+IG_UI_EN = {
+	IGUI_VehicleNameXT4Hopper = "Ibishu Hopper XT-4"
+	IGUI_VehicleNameXT6Hopper = "Ibishu Hopper XT-6"
+	IGUI_VehicleNameLXT4Hopper = "Ibishu Hopper LXT-4"
+	IGUI_VehicleNameLXT6Hopper = "Ibishu Hopper LXT-6"
+	IGUI_VehicleNameZXT6Hopper = "Ibishu Hopper ZXT-6"
+	IGUI_VehicleNameDuneHopper = "Ibishu Hopper Dune Edition"
+	IGUI_VehicleNameSportHopper = "Ibishu Hopper Sport Special"
+	IGUI_VehicleNameSheriffHopper = "Sheriff Ibishu Hopper"
+	IGUI_VehicleNameRangerHopper = "Ranger Ibishu Hopper"
+
+
+	IGUI_VehiclePartHopperLXT4SpareTire  = "Spare Tire"
+	IGUI_VehiclePartHopperLXT6SpareTire  = "Spare Tire"
+	IGUI_VehiclePartHopperZXT6SpareTire  = "Spare Tire"
+	IGUI_VehiclePartHopperDuneSpareTire  = "Spare Tire"
+	IGUI_VehiclePartHopperSportSpareTire  = "Spare Tire"
+	IGUI_VehiclePartHopperSheriffSpareTire  = "Spare Tire"
+	IGUI_VehiclePartHopperRangerSpareTire  = "Spare Tire"

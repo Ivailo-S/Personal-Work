@@ -1,0 +1,484 @@
+module Base
+{
+	model PU_FL_Window_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_FR_Window_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_RL_Window_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowrearlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_RR_Window_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowrearlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowlightfront,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_R_Window_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowlightrear,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_FL_Window_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_FR_Window_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_RL_Window_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowrearheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_RR_Window_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowrearheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowheavyfront,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_R_Window_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|windowheavyrear,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Bullbar_LeGranOffroad
+    {
+        mesh = vehicles/LeGranOffroadArmor|pushbar_1,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Chains_FL_LeGranOffroad
+    {
+        mesh = vehicles/LeGranOffroadArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0039,
+    }
+
+	model PU_Chains_FR_LeGranOffroad
+    {
+        mesh = vehicles/LeGranOffroadArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0039,
+        invertX = TRUE,
+    }
+
+	model PU_Chains_RL_LeGranOffroad
+    {
+        mesh = vehicles/LeGranOffroadArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0039,
+    }
+
+	model PU_Chains_RR_LeGranOffroad
+    {
+        mesh = vehicles/LeGranOffroadArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0039,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|hoodlightfront,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Trunk_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|trunklightrear,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FL_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FR_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Door_RL_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorrearlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Door_RR_LeGranOffroad_Light
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorrearlightleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Trunk_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|trunkheavyrear,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FL_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Door_FR_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Door_RL_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorrearheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	model PU_Door_RR_LeGranOffroad_Heavy
+    {
+        mesh = vehicles/LeGranOffroadArmor|doorrearheavyleft,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+        invertX = TRUE,
+    }
+
+	model PU_Rack_LeGranOffroad
+    {
+        mesh = vehicles/LeGranOffroadArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        shader = vehiclewheel,
+        scale = 0.0041,
+    }
+
+	template vehicle PU_Armor_LeGranOffroad
+	{
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontLeft,
+		part ATA2ProtectionWindowFrontLeft
+		{
+			model Light
+			{
+				file = PU_FL_Window_LeGranOffroad_Light,
+			}
+			model Heavy
+			{
+				file = PU_FL_Window_LeGranOffroad_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontRight,
+		part ATA2ProtectionWindowFrontRight
+		{
+			model Light
+			{
+				file = PU_FR_Window_LeGranOffroad_Light,
+			}
+			model Heavy
+			{
+				file = PU_FR_Window_LeGranOffroad_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowRearLeft,
+		part ATA2ProtectionWindowRearLeft
+		{
+			model Light
+			{
+				file = PU_RL_Window_LeGranOffroad_Light,
+			}
+			model Heavy
+			{
+				file = PU_RL_Window_LeGranOffroad_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowRearRight,
+		part ATA2ProtectionWindowRearRight
+		{
+			model Light
+			{
+				file = PU_RR_Window_LeGranOffroad_Light,
+			}
+			model Heavy
+			{
+				file = PU_RR_Window_LeGranOffroad_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindshield,
+        part ATA2ProtectionWindshield
+        {
+            model Light
+            {
+                file = PU_F_Window_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_F_Window_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWindshieldRear,
+        part ATA2ProtectionWindshieldRear
+        {
+            model Light
+            {
+                file = PU_R_Window_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_R_Window_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionTrunk,
+        part ATA2ProtectionTrunk
+        {
+            model Light
+            {
+                file = PU_Trunk_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_Trunk_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontLeft,
+        part ATA2ProtectionDoorFrontLeft
+        {
+            model Light
+            {
+                file = PU_Door_FL_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FL_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontRight,
+        part ATA2ProtectionDoorFrontRight
+        {
+            model Light
+            {
+                file = PU_Door_FR_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FR_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorRearLeft,
+        part ATA2ProtectionDoorRearLeft
+        {
+            model Light
+            {
+                file = PU_Door_RL_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_RL_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorRearRight,
+        part ATA2ProtectionDoorRearRight
+        {
+            model Light
+            {
+                file = PU_Door_RR_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_RR_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionHood,
+        part ATA2ProtectionHood
+        {
+            model Light
+            {
+                file = PU_Hood_LeGranOffroad_Light,
+            }
+            model Heavy
+            {
+                file = PU_Hood_LeGranOffroad_Heavy,
+            }
+        }
+
+        template = ATA2Bullbars/part/ATA2Bullbar,
+        part ATA2Bullbar
+        {
+            model Default
+            {
+                file = PU_Bullbar_LeGranOffroad,
+            }
+        }
+
+        part Tire*
+        {
+            setAllModelsVisible = false,
+            table install
+            {
+                complete = ATATuning2.InstallComplete.TireNotAllModelsVisible,
+            }
+            
+            table uninstall
+            {
+                complete = ATATuning2.UninstallComplete.TireNotAllModelsVisible,
+            }
+            
+            lua
+            {
+                create = ATATuning2.Create.TireNotAllModelsVisible,
+                init = ATATuning2.Init.TireNotAllModelsVisible,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = Vehicles.Update.Tire,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWheels,
+        part TireFrontLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FL_LeGranOffroad,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RL_LeGranOffroad,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FR_LeGranOffroad,
+            }
+        }
+
+        part TireRearRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RR_LeGranOffroad,
+            }
+        }
+
+        template = ATA2InteractiveTrunk/part/ATA2InteractiveTrunkRoofRack,
+        part ATA2InteractiveTrunkRoofRack
+        {
+            model Default
+            {
+                file = PU_Rack_LeGranOffroad,
+            }
+        }
+	}
+}

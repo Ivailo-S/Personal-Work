@@ -1,0 +1,19 @@
+module Base
+{
+	/****************************** This file is for 3D World Models. ******************************/	
+	
+	
+	model PlushieShuppetGround
+	{
+		mesh = Worlditems/ShuppetPlushie,
+		texture = Worlditems/ShuppetTexture,
+		scale = 0.0045,
+	}
+	model H_PlushieShuppet
+	{
+		mesh = Worlditems/H_ShuppetPlushie,
+		texture = Worlditems/ShuppetTexture,
+		scale = 0.0045,
+	}
+
+}

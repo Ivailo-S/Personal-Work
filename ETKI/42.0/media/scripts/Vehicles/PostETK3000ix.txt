@@ -1,0 +1,503 @@
+module Base
+{
+	model PostETK3000ixBase
+	{
+		mesh = vehicles/ETK2400iPost,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.410,
+	}
+	model PostETK3000ixFL
+	{
+		mesh = vehicles/ETK2400PostWheelB,
+		texture = vehicles/ETKWheelF,
+		scale = 0.416,
+	}
+	model PostETK3000ixFR
+	{
+		mesh = vehicles/ETK2400PostWheelB,
+		texture = vehicles/ETKWheelF,
+		scale = 0.416,
+	}
+	model PostETK3000ixRL
+	{
+		mesh = vehicles/ETK2400PostWheelB,
+		texture = vehicles/ETKWheelF,
+		scale = 0.416,
+	}
+	model PostETK3000ixRR
+	{
+		mesh = vehicles/ETK2400PostWheelB,
+		texture = vehicles/ETKWheelF,
+		scale = 0.416,
+	}
+	vehicle PostETK3000ix
+	{
+		mechanicType = 1,
+		engineRepairLevel = 6,
+		playerDamageProtection = 1.1,
+		offRoadEfficiency = 1.1,
+
+		model
+		{
+			file = PostETK3000ixBase,
+			scale = 1.7500,
+			offset = 0.0000 0.3086 0.0000,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixA,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixB,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixC,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixD,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixA,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixB,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixC,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixD,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixE,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixF,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixG,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixH,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixI,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixJ,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixK,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixL,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixM,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixN,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixO,
+		}
+
+		skin
+		{
+			texture = vehicles/PostETK3000ixP,
+		}
+
+		textureMask = vehicles/ETK2400iMask,
+		textureLights = vehicles/ETK2400iPostLights,
+		textureDamage1Overlay = vehicles/ETKBaseBlood,
+		textureDamage2Overlay = vehicles/ETKBaseBlood,
+		textureDamage1Shell = vehicles/ETKStandardDamageModerate,
+		textureDamage2Shell = vehicles/ETKStandardDamageHeavy,
+		textureRust = vehicles/Blank_Placeholder,
+
+		sound
+		{
+			engine = VehicleEngineCarNormal,
+			engineStart = VehicleEngineCarNormal,
+			engineTurnOff = VehicleEngineCarNormal,
+			horn = VehicleHornSportsCar,
+			ignitionFail = VehicleIgnitionFailCarNormal,
+		}
+
+		extents = 0.8571 0.6629 2.4114,
+		mass = 840,
+		physicsChassisShape = 0.8571 0.6629 2.4114,
+		centerOfMassOffset = 0.0000 0.3029 -0.0114,
+		shadowExtents = 0.9000 2.4482,
+		shadowOffset = 0.0000 -0.0006,
+		engineForce = 4700,
+		maxSpeed = 110f,
+		engineLoudness = 65,
+		engineQuality = 80,
+		brakingForce = 80,
+		gearRatioCount = 5,
+		gearRatioR = 3.6,
+		gearRatio1 = 3.6,
+		gearRatio2 = 2.8,
+		gearRatio3 = 2.0,
+		gearRatio4 = 1.4,
+		gearRatio5 = 1.1,
+		extentsOffset = 0.5 0.5,
+		stoppingMovementForce = 4.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 30,
+		suspensionCompression = 3.53,
+		suspensionDamping = 2.88,
+		maxSuspensionTravelCm = 12,
+		suspensionRestLength = 0.20f,
+		wheelFriction = 1.6f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 4,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3657 -0.3257 0.8000,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3657 -0.3257 0.8000,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.3657 -0.3257 -0.6686,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.3657 -0.3257 -0.6686,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		template = PassengerSeat4,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.1943 -0.1314 0.0286,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.6343 -0.4857 0.1429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.1943 -0.1314 0.0286,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6343 -0.4857 0.1429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		passenger RearLeft
+		{
+			position inside
+			{
+				offset = 0.1943 -0.1314 -0.4400,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.6343 -0.4857 -0.3429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearLeft,
+			}
+		}
+
+		passenger RearRight
+		{
+			position inside
+			{
+				offset = -0.1943 -0.1314 -0.4400,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6400 -0.4857 -0.3429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatRearRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 1.4971 0.8686 0.6057,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.5200 0.8686 0.6057,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.6571 0.1486 0.4571 0.5257,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6571 0.1486 0.4571 0.5257,
+		}
+
+		area SeatRearLeft
+		{
+			xywh = 0.6571 -0.3657 0.4571 0.5257,
+		}
+
+		area SeatRearRight
+		{
+			xywh = -0.6571 -0.3657 0.4571 0.5257,
+		}
+
+		area GasTank
+		{
+			xywh = 0.6571 -0.9200 0.4571 0.4571,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.6571 0.7943 0.4571 0.4571,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.6571 0.7943 0.4571 0.4571,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.6571 -0.6743 0.4571 0.4571,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.6571 -0.6743 0.4571 0.4571,
+		}
+
+		template = Trunk/part/TruckBed,
+		template = TrunkDoor,
+
+		part TruckBed
+		{
+			itemType = Base.NormalTrunk,
+
+			container
+			{
+				capacity = 45,
+			}
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+		template = Seat/part/SeatRearLeft,
+		template = Seat/part/SeatRearRight,
+
+		part Seat*
+		{
+			table install
+			{
+				skills = Mechanics:2,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				capacity = 6,
+				test = Vehicles.ContainerAccess.GloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+		template = EngineDoor,
+
+		part Heater
+		{
+			category = engine,
+
+			lua
+			{
+				update = Vehicles.Update.Heater,
+			}
+		}
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearLeft,
+		template = Window/part/WindowRearRight,
+
+		part Window*
+		{
+			anim Open
+			{
+				sound = VehicleWindowElectricOpen,
+			}
+
+			anim Close
+			{
+				sound = VehicleWindowElectricClose,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Door/part/DoorRearLeft,
+		template = Door/part/DoorRearRight,
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = PostETK3000ixFL,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = PostETK3000ixFR,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = PostETK3000ixRL,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = PostETK3000ixRR,
+			}
+		}
+
+		template = Brake,
+		template = Suspension,
+		template = Radio,
+		template = Headlight,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.2360 -1.1798,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.2640 1.1798,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

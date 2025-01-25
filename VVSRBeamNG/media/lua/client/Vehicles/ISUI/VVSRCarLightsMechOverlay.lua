@@ -1,0 +1,1 @@
+ISCarMechanicsOverlay.CarList["Base.CarLights"] = ISCarMechanicsOverlay.CarList["Base.RangerHopper"]

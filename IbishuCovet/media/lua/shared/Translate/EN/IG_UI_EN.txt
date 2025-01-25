@@ -1,0 +1,13 @@
+IG_UI_EN = {
+	IGUI_VehicleNameIbishuCovetDx = "Ibishu Covet DX"
+	IGUI_VehicleNameIbishuDrivingSchool = "Ibishu Covet DX"
+	IGUI_VehicleNameIbishuCovetDxi = "Ibishu Covet DXi"
+	IGUI_VehicleNameIbishuCovetLxi = "Ibishu Covet LXi"
+	IGUI_VehicleNameIbishuCovetZxi = "Ibishu Covet ZXi"
+	IGUI_VehicleNameIbishuCovetZxiSpecial = "Ibishu Covet ZXi Special Edition"
+	IGUI_VehicleNameIbishuCovetGtz = "Ibishu Covet GTz"
+	IGUI_VehicleNameIbishuCovetTurbo = "Ibishu Covet MR Turbo Evolution"
+	IGUI_VehicleNameIbishuCovetRally = "Ibishu Covet MR Turbo Rally"
+
+
+

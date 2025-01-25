@@ -1,0 +1,357 @@
+module Base
+{
+	model RallyETKBase
+	{
+		mesh = vehicles/RallyETK,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.410,
+	}
+	model RallyETKFL
+	{
+		mesh = vehicles/ETK2400PostWheelA,
+		texture = vehicles/ETKWheelG,
+		shader = vehiclewheel,
+		scale = 0.418,
+	}
+	model RallyETKFR
+	{
+		mesh = vehicles/ETK2400PostWheelA,
+		texture = vehicles/ETKWheelG,
+		shader = vehiclewheel,
+		scale = 0.418,
+	}
+	model RallyETKRL
+	{
+		mesh = vehicles/ETK2400PostWheelA,
+		texture = vehicles/ETKWheelG,
+		shader = vehiclewheel,
+		scale = 0.418,
+	}
+	model RallyETKRR
+	{
+		mesh = vehicles/ETK2400PostWheelA,
+		texture = vehicles/ETKWheelG,
+		shader = vehiclewheel,
+		scale = 0.418,
+	}
+	vehicle RallyETK
+	{
+		mechanicType = 3,
+		engineRepairLevel = 6,
+		playerDamageProtection = 1.5,
+		offRoadEfficiency = 3.0,
+
+		model
+		{
+			file = RallyETKBase,
+			scale = 1.7500,
+			offset = 0.0000 0.3086 0.0000,
+		}
+
+		skin
+		{
+			texture = vehicles/ETKTextureRallyA,
+		}
+
+		textureMask = vehicles/ETK2400iMask,
+		textureLights = vehicles/ETK2400iPostLights,
+		textureDamage1Overlay = vehicles/ETKBaseBlood,
+		textureDamage2Overlay = vehicles/ETKBaseBlood,
+		textureDamage1Shell = vehicles/ETKStandardDamageModerate,
+		textureDamage2Shell = vehicles/ETKStandardDamageHeavy,
+		textureRust = vehicles/Blank_Placeholder,
+
+		sound
+		{
+			engine = VehicleEngineSportsCar,
+			engineStart = VehicleEngineSportsCar,
+			engineTurnOff = VehicleEngineSportsCar,
+			horn = VehicleHornSportsCar,
+			ignitionFail = VehicleIgnitionFailSportsCar,
+		}
+
+		extents = 0.8571 0.6629 2.4114,
+		mass = 680,
+		physicsChassisShape = 0.8571 0.6629 2.4114,
+		centerOfMassOffset = 0.0000 0.3029 -0.0114,
+		shadowExtents = 0.9000 2.4482,
+		shadowOffset = 0.0000 -0.0006,
+		engineForce = 6000,
+		maxSpeed = 120f,
+		engineLoudness = 80,
+		engineQuality = 80,
+		brakingForce = 85,
+		gearRatioCount = 5,
+		gearRatioR = 5.0,
+		gearRatio1 = 5.0,
+		gearRatio2 = 4.0,
+		gearRatio3 = 3.0,
+		gearRatio4 = 2.4,
+		gearRatio5 = 1.8,
+		extentsOffset = 0.5 0.5,
+		stoppingMovementForce = 4.0f,
+		rollInfluence = 1.0f,
+		steeringIncrement = 0.04,
+		steeringClamp = 0.3,
+		suspensionStiffness = 30,
+		suspensionCompression = 3.23,
+		suspensionDamping = 2.48,
+		maxSuspensionTravelCm = 15,
+		suspensionRestLength = 0.20f,
+		wheelFriction = 1.7f,
+		frontEndHealth = 150,
+		rearEndHealth = 150,
+		seats = 2,
+
+		wheel FrontLeft
+		{
+			front = true,
+			offset = 0.3714 -0.3429 0.8000,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel FrontRight
+		{
+			front = true,
+			offset = -0.3714 -0.3429 0.8000,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel RearLeft
+		{
+			front = false,
+			offset = 0.3714 -0.3429 -0.6686,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		wheel RearRight
+		{
+			front = false,
+			offset = -0.3714 -0.3429 -0.6686,
+			radius = 0.15f,
+			width = 0.2f,
+		}
+
+		template = PassengerSeat4,
+
+		passenger FrontLeft
+		{
+			position inside
+			{
+				offset = 0.1943 -0.1314 0.0286,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = 0.6343 -0.4857 0.1429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontLeft,
+			}
+		}
+
+		passenger FrontRight
+		{
+			position inside
+			{
+				offset = -0.1943 -0.1314 0.0286,
+				rotate = 0.0000 0.0000 0.0000,
+			}
+
+			position outside
+			{
+				offset = -0.6343 -0.4857 0.1429,
+				rotate = 0.0000 0.0000 0.0000,
+				area = SeatFrontRight,
+			}
+		}
+
+		area Engine
+		{
+			xywh = 0.0000 1.4971 0.8686 0.6057,
+		}
+
+		area TruckBed
+		{
+			xywh = 0.0000 -1.5200 0.8686 0.6057,
+		}
+
+		area SeatFrontLeft
+		{
+			xywh = 0.6571 0.1486 0.4571 0.5257,
+		}
+
+		area SeatFrontRight
+		{
+			xywh = -0.6571 0.1486 0.4571 0.5257,
+		}
+
+		area GasTank
+		{
+			xywh = 0.6571 -0.9200 0.4571 0.4571,
+		}
+
+		area TireFrontLeft
+		{
+			xywh = 0.6571 0.7943 0.4571 0.4571,
+		}
+
+		area TireFrontRight
+		{
+			xywh = -0.6571 0.7943 0.4571 0.4571,
+		}
+
+		area TireRearLeft
+		{
+			xywh = 0.6571 -0.6743 0.4571 0.4571,
+		}
+
+		area TireRearRight
+		{
+			xywh = -0.6571 -0.6743 0.4571 0.4571,
+		}
+
+		template = Trunk/part/TruckBed,
+		template = TrunkDoor,
+
+		part TruckBed
+		{
+			itemType = Base.NormalTrunk,
+
+			container
+			{
+				capacity = 45,
+			}
+		}
+
+		template = Seat/part/SeatFrontLeft,
+		template = Seat/part/SeatFrontRight,
+
+		part Seat*
+		{
+			table install
+			{
+				skills = Mechanics:2,
+			}
+
+			table uninstall
+			{
+				skills = Mechanics:2,
+			}
+		}
+
+		part GloveBox
+		{
+			area = SeatFrontRight,
+			itemType = Base.GloveBox,
+			mechanicRequireKey = true,
+
+			container
+			{
+				capacity = 6,
+				test = Vehicles.ContainerAccess.GloveBox,
+			}
+
+			lua
+			{
+				create = Vehicles.Create.Default,
+			}
+		}
+
+		template = GasTank,
+		template = Battery,
+		template = Engine,
+		template = Muffler,
+		template = EngineDoor,
+
+		part PassengerCompartment
+		{
+			category = nodisplay,
+
+			lua
+			{
+				update = Vehicles.Update.PassengerCompartment,
+			}
+		}
+
+		template = Windshield/part/Windshield,
+		template = Windshield/part/WindshieldRear,
+		template = Window/part/WindowFrontLeft,
+		template = Window/part/WindowFrontRight,
+		template = Window/part/WindowRearLeft,
+		template = Window/part/WindowRearRight,
+
+		part Window*
+		{
+			anim Open
+			{
+				sound = VehicleWindowElectricOpen,
+			}
+
+			anim Close
+			{
+				sound = VehicleWindowElectricClose,
+			}
+		}
+
+		template = Door/part/DoorFrontLeft,
+		template = Door/part/DoorFrontRight,
+		template = Door/part/DoorRearLeft,
+		template = Door/part/DoorRearRight,
+		template = Tire,
+
+		part TireFrontLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = RallyETKFL,
+			}
+		}
+
+		part TireFrontRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = RallyETKFR,
+			}
+		}
+
+		part TireRearLeft
+		{
+			model InflatedTirePlusWheel
+			{
+				file = RallyETKRL,
+			}
+		}
+
+		part TireRearRight
+		{
+			model InflatedTirePlusWheel
+			{
+				file = RallyETKRR,
+			}
+		}
+
+		template = Brake,
+		template = Suspension,
+		template = Headlight,
+
+		attachment trailer
+		{
+			offset = 0.0000 -0.2360 -1.1798,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = -1.0000,
+		}
+
+		attachment trailerfront
+		{
+			offset = 0.0000 -0.2640 1.1798,
+			rotate = 0.0000 0.0000 0.0000,
+			zoffset = 1.0000,
+		}
+	}
+}

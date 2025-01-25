@@ -1,0 +1,397 @@
+module Base
+{
+	model PU_FL_Window_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_FR_Window_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_RL_Window_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|windowrearlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_RR_Window_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|windowrearlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|windowlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_R_Window_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|windowlightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_FL_Window_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_FR_Window_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_RL_Window_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|windowrearheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_RR_Window_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|windowrearheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|windowheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_R_Window_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|windowheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Bullbar_BaseHopper
+    {
+        mesh = vehicles/BaseHopperArmor|pushbar_1,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Chains_FL_BaseHopper
+    {
+        mesh = vehicles/BaseHopperArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Chains_FR_BaseHopper
+    {
+        mesh = vehicles/BaseHopperArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_Chains_RL_BaseHopper
+    {
+        mesh = vehicles/BaseHopperArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Chains_RR_BaseHopper
+    {
+        mesh = vehicles/BaseHopperArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|hoodlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Trunk_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|trunklightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Door_FL_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Door_FR_BaseHopper_Light
+    {
+        mesh = vehicles/BaseHopperArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Trunk_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|trunkheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Door_FL_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+
+	model PU_Door_FR_BaseHopper_Heavy
+    {
+        mesh = vehicles/BaseHopperArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+        invertX = TRUE,
+    }
+
+	model PU_Rack_BaseHopper
+    {
+        mesh = vehicles/BaseHopperArmor|roofrack,
+        texture = Vehicles/puv_parts,
+        scale = 0.0045,
+    }
+	template vehicle PU_Armor_BaseHopper
+	{
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontLeft,
+		part ATA2ProtectionWindowFrontLeft
+		{
+			model Light
+			{
+				file = PU_FL_Window_BaseHopper_Light,
+			}
+			model Heavy
+			{
+				file = PU_FL_Window_BaseHopper_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontRight,
+		part ATA2ProtectionWindowFrontRight
+		{
+			model Light
+			{
+				file = PU_FR_Window_BaseHopper_Light,
+			}
+			model Heavy
+			{
+				file = PU_FR_Window_BaseHopper_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowRearLeft,
+		part ATA2ProtectionWindowRearLeft
+		{
+			model Light
+			{
+				file = PU_RL_Window_BaseHopper_Light,
+			}
+			model Heavy
+			{
+				file = PU_RL_Window_BaseHopper_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowRearRight,
+		part ATA2ProtectionWindowRearRight
+		{
+			model Light
+			{
+				file = PU_RR_Window_BaseHopper_Light,
+			}
+			model Heavy
+			{
+				file = PU_RR_Window_BaseHopper_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindshield,
+        part ATA2ProtectionWindshield
+        {
+            model Light
+            {
+                file = PU_F_Window_BaseHopper_Light,
+            }
+            model Heavy
+            {
+                file = PU_F_Window_BaseHopper_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWindshieldRear,
+        part ATA2ProtectionWindshieldRear
+        {
+            model Light
+            {
+                file = PU_R_Window_BaseHopper_Light,
+            }
+            model Heavy
+            {
+                file = PU_R_Window_BaseHopper_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionTrunk,
+        part ATA2ProtectionTrunk
+        {
+            model Light
+            {
+                file = PU_Trunk_BaseHopper_Light,
+            }
+            model Heavy
+            {
+                file = PU_Trunk_BaseHopper_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontLeft,
+        part ATA2ProtectionDoorFrontLeft
+        {
+            model Light
+            {
+                file = PU_Door_FL_BaseHopper_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FL_BaseHopper_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontRight,
+        part ATA2ProtectionDoorFrontRight
+        {
+            model Light
+            {
+                file = PU_Door_FR_BaseHopper_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FR_BaseHopper_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionHood,
+        part ATA2ProtectionHood
+        {
+            model Light
+            {
+                file = PU_Hood_BaseHopper_Light,
+            }
+            model Heavy
+            {
+                file = PU_Hood_BaseHopper_Heavy,
+            }
+        }
+
+        template = ATA2Bullbars/part/ATA2Bullbar,
+        part ATA2Bullbar
+        {
+            model Large
+            {
+                file = PU_Bullbar_BaseHopper,
+            }
+        }
+
+        part Tire*
+        {
+            setAllModelsVisible = false,
+            table install
+            {
+                complete = ATATuning2.InstallComplete.TireNotAllModelsVisible,
+            }
+            
+            table uninstall
+            {
+                complete = ATATuning2.UninstallComplete.TireNotAllModelsVisible,
+            }
+            
+            lua
+            {
+                create = ATATuning2.Create.TireNotAllModelsVisible,
+                init = ATATuning2.Init.TireNotAllModelsVisible,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = Vehicles.Update.Tire,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWheels,
+        part TireFrontLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FL_BaseHopper,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RL_BaseHopper,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FR_BaseHopper,
+            }
+        }
+
+        part TireRearRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RR_BaseHopper,
+            }
+        }
+
+        template = ATA2InteractiveTrunk/part/ATA2InteractiveTrunkRoofRack,
+        part ATA2InteractiveTrunkRoofRack
+        {
+            model Default
+            {
+                file = PU_Rack_BaseHopper,
+            }
+        }
+    }
+}

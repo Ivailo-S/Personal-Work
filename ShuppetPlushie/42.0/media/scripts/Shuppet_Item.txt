@@ -1,0 +1,22 @@
+module ShuppetPlushie
+{
+	imports
+	{
+		Base,
+	}
+	item Plushie_Shuppet
+	{
+		DisplayCategory = Raccoon,
+		Weight    =    0.2,
+		Type    =    Normal,
+		DisplayName    = Shuppet Plushie,
+		Icon    =    PlushieShuppetIcon,
+		WorldStaticModel =  PlushieShuppetGround,
+		StaticModel = H_PlushieShuppet,
+		AttachmentType = SpiffoPlushie,
+	}
+	
+
+
+
+}
