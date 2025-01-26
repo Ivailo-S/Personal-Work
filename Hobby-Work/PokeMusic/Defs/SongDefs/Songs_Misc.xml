@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <SongDef>
+    <defName>EndCreditsSong</defName>
+    <playOnMap>false</playOnMap>
+    <clipPath>Ending</clipPath>
+    <volume>1.05</volume>
+  </SongDef>
+
+</Defs>

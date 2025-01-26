@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ModMetaData>
+	<name>PokéMusic</name>
+	<author>Ivailo</author>
+	<packageId>Ivailo.PokeMusic</packageId>
+	<supportedVersions>
+		<li>1.4</li>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>PokéMusic adds an assortment of both calm and combat music, taken mainly from the DS lineup of mainline Pokémon games. This mod is best paired with Gargamiel's PokéWorld mod for maximum immersion.</description>
+</ModMetaData>
