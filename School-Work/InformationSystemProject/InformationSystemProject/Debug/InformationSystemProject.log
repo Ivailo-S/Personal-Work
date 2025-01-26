@@ -1,0 +1,18 @@
+﻿  Classes.h
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Classes.h(108,10): warning C4101: 'deducted_pay': unreferenced local variable
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Classes.h(295,10): warning C4101: 'deducted_pay': unreferenced local variable
+  Main.cpp
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Classes.h(108,10): warning C4101: 'deducted_pay': unreferenced local variable
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Classes.h(295,10): warning C4101: 'deducted_pay': unreferenced local variable
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(110,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(127,17): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(155,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(237,17): warning C4244: 'argument': conversion from 'std::streamoff' to 'const unsigned int', possible loss of data
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(307,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(332,21): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(339,27): warning C4018: '>': signed/unsigned mismatch
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(401,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(431,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\InformationSystemProject\Main.cpp(438,28): warning C4018: '>': signed/unsigned mismatch
+  Generating Code...
+  InformationSystemProject.vcxproj -> C:\Users\ivail\Documents\TRU Documents\Year 1 Document Archive\InformationSystemProject\Debug\InformationSystemProject.exe

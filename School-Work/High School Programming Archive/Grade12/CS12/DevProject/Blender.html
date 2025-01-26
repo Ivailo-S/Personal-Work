@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  .overlay {
+    height: 0%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top
+    width: 30%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: auto;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: fixed;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 25px;
+    right: 35px;
+    }
+  }
+
+  section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+  nav {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #505050;
+  color: whitesmoke;
+  padding: 15px;
+
+  ;
+  padding: 10px;
+  text-align: left;
+  line-height: 1.3;
+  font-size: 15px;
+  color: rgb(245, 245, 245);
+  }
+
+  aside {
+  -webkit-flex: 4;
+  -ms-flex: 4;
+  flex: 4;
+  background-color: #999999;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+  </style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <div class="overlay-content">
+    <a href="H:\Grade12\CS12\DevProject\Home.html">Home Page</a>
+    <a href="H:\Grade12\CS12\DevProject\Blender.html">Blender Animation</a>
+    <a href="H:\Grade12\CS12\DevProject\Onshape.html">OnShape Drafting</a>
+    <a href="H:\Grade12\CS12\DevProject\Resume.html">Resume</a>
+    <a href="H:\Grade12\CS12\DevProject\Contacts.html">Contacts</a>
+  </div>
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+<header>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</header>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "40%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+<style>
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+}
+  header {
+  background-color: #747474
+
+;
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+</style>
+<section>
+  <nav>
+    <p>From starting in Mr. Paravante's grade 8 class back in 2018, I had worked with Blender and its digital environment to create some impressive works. Whilst my initial years were simply just following the curriculum and such, by Grade 12 I was using Blender for personal usage and projects that extend far from the confines of just 3D modelling. This can be best shown with my current works found back on the main page.</p>  
+  </nav>
+  <aside>
+    <a title="Blender Foundation / Public domain" ""><img width="512" alt="Logo Blender" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Logo_Blender.svg/512px-Logo_Blender.svg.png"></a>
+
+    <img src="H:\donut.png" alt="Donut" style="width:80%">
+
+    <img src="H:\P-10\DevProject\Resources\Moresnowingman.png" alt="Donut" style="width:80%">
+
+    <img src="H:\P-10\DevProject\Resources\Car.png" alt="Donut" style="width:80%">
+
+
+  </aside>
+</section>
+</html>

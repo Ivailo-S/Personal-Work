@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<style>
+.overlay {
+  height: 0%;
+  width: 60%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-y: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top
+  width: 100%;
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: auto;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay {overflow-y: fixed;}
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 25px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="https://www.w3schools.com/code/tryit.asp?filename=GJ20EXYN8L8H">Home Page</a>
+      <a href="https://www.w3schools.com/code/tryit.asp?filename=GJ20GXB2QNHO">Blender Animation</a>
+      <a href="https://www.w3schools.com/code/tryit.asp?filename=GJ20GLQDDZSF">OnShape Drafting</a>
+      <a href="https://www.w3schools.com/code/tryit.asp?filename=GJ20G9DIGJQ1">Software Engineering</a>
+      <a href="https://www.w3schools.com/code/tryit.asp?filename=GJ37LFLQY7SA">Resume</a>
+      <a href="https://www.w3schools.com/code/tryit.asp?filename=GJ37SE340QBI">Contacts</a>
+
+  </div>
+<h1>
+  <header1>
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+  </header1>
+</h1>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "100%";
+
+
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+
+}
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #b00000
+
+;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+header1 {
+  background-color: #454545
+
+;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #404040;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #005000;
+  color: burlywood;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+<header>
+  <h2>Bulgaria</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+<a title="NuclearVacuum / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)" ><img width="512" alt="EU-Bulgaria" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EU-Bulgaria.svg/512px-EU-Bulgaria.svg.png"></a>
+
+<a> <title="SKopp / Public domain" "https://commons.wikimedia.org/wiki/File:Flag_of_Bulgaria.svg"><img width="512" alt="Flag of Bulgaria" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/512px-Flag_of_Bulgaria.svg.png"></a>
+<h6>Source for images; Wikipedia Bulgaria</h6>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>The Basics</h1>
+    <p>Bulgaria is a country located down in the Balkans, in Eastern Europe. It's inbetween the more known for countries such as Greece, Romania, & Turkey.</p>
+    <p>It's capital is the city of Sofia, located in the western portion of the country. The country itself is barely that large, with a total of only 110,994 km²
+. For comparison, the area of just British Columbia is 944,735 km², and Vancouver Island alone has an area of 31,285 km², meaning just 3 Vancouver Islands is the size of Bulgaria essentially.
+ </p>
+ <h1>History</h1>
+ <p>Bulgaria's existence had been an incredibly messy one. Although the country is much, much older in it's history, it had only formed into an empire not so far back in 681 AD and was incredibly recently when it was declared an independant country back in 1908, just over 100 years ago, Canada was older than Bulgaria for goodness sakes! Bulgaria had also been notorious for losing literally every battle they had ever partaken in, which is why Bulgaria kept being shifted back and forth between countries and empires. The odd thing though is, Bulgaria actually had a fairly competent and capable army, even in some cases being better than the opposing force, but in those cases the political masses were the culprits, submitting defeat even when it seemed like they were winning. Even today the political integrety of Bulgaria is effectively being held by duct tape and wire.</p>
+ <h1>Cities</h1>
+ <p>The top 3 biggest cities in Bulgaria are Sofia, at number 1 with a total population of 1,204,685 people. It's by far the largest city in the country and it's quite easy to see why, especially since number 2 and 3 are effectively barely anything compared to it. Speaking of which, let's get on right ahead to the next largest, Plovdiv, with a total population of 338,153 people. It's much, much less compared to Sofia, but it's actually only 150 km away and only takes about an hour and a half to get there. Generally for comparison the distance from Kamloops to Hope, not Vancouver, just to Hope, takes 2 hours and is 200 km away. The final city here for this list is Varna, with 334,870 people, just barely the same size of Plovdiv. Located all the way at the Black Sea, and is basically on the other side of the country. And even then it's only 440 km away and is a 5 hour drive, and again for this comparison the distance for Kamloops to Banff is 495, nearly 500 km away and is a 5 and a half hour drive. Getting to Alberta from Kamloops is basically the same distance as going across Bulgaria.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Source: Myself</p>
+  <p>Copyright 2020 Ivatek Industries</p>
+</footer>
+</body>
+</html>

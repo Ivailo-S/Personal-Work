@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Home Page</title>
+<style>
+  .overlay {
+    height: 0%;
+    width: 30%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-y: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top
+    width: 30%;
+    text-align: left;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: auto;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay {overflow-y: fixed;}
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 25px;
+    right: 35px;
+    }
+  }
+  </style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <div class="overlay-content">
+    <a href="H:\Grade12\CS12\DevProject\Home.html">Home Page</a>
+    <a href="H:\Grade12\CS12\DevProject\Blender.html">Blender Animation</a>
+    <a href="H:\Grade12\CS12\DevProject\Onshape.html">OnShape Drafting</a>
+    <a href="H:\Grade12\CS12\DevProject\Resume.html">Resume</a>
+    <a href="H:\Grade12\CS12\DevProject\Contacts.html">Contacts</a>
+  </div>
+   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+</div>
+<header>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Menu</span>
+</header>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.height = "40%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.height = "0%";
+}
+</script>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #747474
+
+;
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+}
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #404040;
+  padding: 20px;
+
+  ;
+  padding: 10px;
+  text-align: center;
+  font-size: 15px;
+  color: gray;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #005000;
+  color: burlywood;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: rgb(50, 50, 50);
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+aside {
+  background-color: #777;
+  padding: 5px;
+  text-align: center;
+  color: white;
+}
+
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+</style>
+<header>
+  <h2>Ivailo's Software Engineering Bio</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+      <div class="row">
+        <div class="row">
+          <img src="H:\Grade12\CS12\DevProject\Resources\DSC_0024.jpg" alt="Showoff" style="width:100%">
+        </div>
+        <div class="column">
+          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2887394700">
+            <img src="H:\Grade12\CS12\DevProject\Resources\gavrilthemarshal.jfif" alt="Gavril Thumbnail" style="width:100%">
+            </a>
+        </div>
+        <div class="column">
+          <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=2938319441">
+            <img src="H:\Grade12\CS12\DevProject\Resources\ibishuthecovet.jpg" alt="Ibishu Thumbnail" style="width:100%">
+            </a>
+        </div>
+      </div>
+    </ul>
+    <p>These thumbnail images can be clicked on to send you to my work</p>
+  </nav>
+  
+  <article>
+    <h1>About Me</h1>
+    <p>I was born in Sofia Bulgaria back in May of 2005, before shortly moving to Canada and living the large majority of my life around the Greater Vancouver area and outward to Kamloops.</p>
+    <p>Throughout my later years, I picked up a larger interest towards the technology field for it to be my potential future career, and as of now I've been working on many little projects to train and test my capabilities to see what I can actually achieve despite my limited experience.</p>
+ </p>
+ <h1>My Accomplishments</h1>
+ <p>To see what I could accomplish during my Grade 12 school year, I created a video game mod from the ground up where I had explained the long process of how I created it from the ground up with modelling, texturing, and programming to show a functional automobile in a game of my choice. This proved to be quite a challenging endeavour for me since I only had very limited material to actually refer to when creating something like this, but in the end it was not only finished with a good variety attacheed with it, but I had also released online for others to actually use my mod and be recognized for my work.</p>
+ <p>After this small success for myself, I then wanted to go further. I applied to a competition by a local university in conjunction with a contracting firm to create a robot in exchang for potentially winning a cash prize towards attending that university, which I was already planning to do. We had to create a robot of some sort from scratch that would have to not only have to benefit the supporting company in question, but meet an official United Nation agreement that met some sort of human treaty thing. With this, we had to accomplish this in the span of 3 months, and by the end of it all, our project actually won the competition. It means I can pay off the first semester fees for my program that I'll be attending to, and that subject will be furthering my experience that I want to go into for my adulthood.</p>
+ <h1>My Future</h1>
+ <p>My future is to go into university for software engineering where I can truly hone my skills in for something greater, and allow myself to get into a high-end profession. With how much inflation has been rocking the Canadian country so that most labor jobs have been struggling to get by, my career will hopefully be able to let myself live comfortably from now all the way to my retirement.</p>
+  </article>
+</section>
+
+<footer>
+  <p>Source: Trust me</p>
+  <p>Copyright 2020 Ivatek Industries</p>
+</footer>
+</body>
+</html>
