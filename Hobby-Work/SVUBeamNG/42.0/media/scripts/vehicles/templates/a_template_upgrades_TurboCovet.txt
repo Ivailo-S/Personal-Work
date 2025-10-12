@@ -95,9 +95,6 @@ module Base
         scale = 0.004,
     }
 
-	-- Fun fact about variable tire armors, if you end up dealing with this in the same file, it will ONLY call the last armor file pulled from the list below to render.
-	-- This means you HAVE to move these armors into separate models entirely. Really efficient stuff, y'know?
-
 	model PU_Chains_FL_Turbo_Covet
     {
         mesh = vehicles/TurboFrontWheels|frontchaintires,

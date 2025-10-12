@@ -17,14 +17,14 @@ module Base
 
 	model PU_RL_Window_LongStandardRoamer_Light
     {
-        mesh = vehicles/LongStandardRoamerArmor|windowrearlightleft,
+        mesh = vehicles/LongStandardRoamerArmor|windowmiddlelightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_RR_Window_LongStandardRoamer_Light
     {
-        mesh = vehicles/LongStandardRoamerArmor|windowrearlightleft,
+        mesh = vehicles/LongStandardRoamerArmor|windowmiddlelightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -61,14 +61,14 @@ module Base
 
 	model PU_RL_Window_LongStandardRoamer_Heavy
     {
-        mesh = vehicles/LongStandardRoamerArmor|windowrearheavyleft,
+        mesh = vehicles/LongStandardRoamerArmor|windowmiddleheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_RR_Window_LongStandardRoamer_Heavy
     {
-        mesh = vehicles/LongStandardRoamerArmor|windowrearheavyleft,
+        mesh = vehicles/LongStandardRoamerArmor|windowmiddleheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -156,14 +156,14 @@ module Base
 
 	model PU_Door_RL_LongStandardRoamer_Light
     {
-        mesh = vehicles/LongStandardRoamerArmor|doorrearlightleft,
+        mesh = vehicles/RoamerMiddleDoorsArmor|doormiddlelightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_RR_LongStandardRoamer_Light
     {
-        mesh = vehicles/LongStandardRoamerArmor|doorrearlightleft,
+        mesh = vehicles/RoamerMiddleDoorsArmor|doormiddlelightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -200,14 +200,14 @@ module Base
 
 	model PU_Door_RL_LongStandardRoamer_Heavy
     {
-        mesh = vehicles/LongStandardRoamerArmor|doorrearheavyleft,
+        mesh = vehicles/RoamerMiddleDoorsArmor|doormiddleheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_RR_LongStandardRoamer_Heavy
     {
-        mesh = vehicles/LongStandardRoamerArmor|doorrearheavyleft,
+        mesh = vehicles/RoamerMiddleDoorsArmor|doormiddleheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -248,8 +248,8 @@ module Base
 			}
 		}
 
-        template = ATA2Protection/part/ATA2ProtectionWindowRearLeft,
-		part ATA2ProtectionWindowRearLeft
+        template = ATA2Protection/part/ATA2ProtectionWindowMiddleLeft,
+		part ATA2ProtectionWindowMiddleLeft
 		{
 			model Light
 			{
@@ -261,8 +261,8 @@ module Base
 			}
 		}
 
-        template = ATA2Protection/part/ATA2ProtectionWindowRearRight,
-		part ATA2ProtectionWindowRearRight
+        template = ATA2Protection/part/ATA2ProtectionWindowMiddleRight,
+		part ATA2ProtectionWindowMiddleRight
 		{
 			model Light
 			{
@@ -339,8 +339,8 @@ module Base
             }
         }
 
-        template = ATA2Protection/part/ATA2ProtectionDoorRearLeft,
-        part ATA2ProtectionDoorRearLeft
+        template = ATA2Protection/part/ATA2ProtectionDoorMiddleLeft,
+        part ATA2ProtectionDoorMiddleLeft
         {
             model Light
             {
@@ -352,8 +352,8 @@ module Base
             }
         }
 
-        template = ATA2Protection/part/ATA2ProtectionDoorRearRight,
-        part ATA2ProtectionDoorRearRight
+        template = ATA2Protection/part/ATA2ProtectionDoorMiddleRight,
+        part ATA2ProtectionDoorMiddleRight
         {
             model Light
             {

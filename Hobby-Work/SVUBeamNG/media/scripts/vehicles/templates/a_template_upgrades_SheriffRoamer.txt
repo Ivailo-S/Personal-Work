@@ -2,14 +2,14 @@ module Base
 {
 	model PU_FL_Window_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|windowfrontlightleft,
+        mesh = vehicles/StandardRoamerArmor|windowfrontlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_FR_Window_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|windowfrontlightleft,
+        mesh = vehicles/StandardRoamerArmor|windowfrontlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -17,14 +17,14 @@ module Base
 
 	model PU_RL_Window_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|windowrearlightleft,
+        mesh = vehicles/StandardRoamerArmor|windowrearlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_RR_Window_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|windowrearlightleft,
+        mesh = vehicles/StandardRoamerArmor|windowrearlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -32,28 +32,28 @@ module Base
 
 	model PU_F_Window_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|windowlightfront,
+        mesh = vehicles/StandardRoamerArmor|windowlightfront,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_R_Window_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|windowlightrear,
+        mesh = vehicles/StandardRoamerArmor|windowlightrear,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_FL_Window_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|windowfrontheavyleft,
+        mesh = vehicles/StandardRoamerArmor|windowfrontheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_FR_Window_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|windowfrontheavyleft,
+        mesh = vehicles/StandardRoamerArmor|windowfrontheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -61,14 +61,14 @@ module Base
 
 	model PU_RL_Window_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|windowrearheavyleft,
+        mesh = vehicles/StandardRoamerArmor|windowrearheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_RR_Window_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|windowrearheavyleft,
+        mesh = vehicles/StandardRoamerArmor|windowrearheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -76,79 +76,79 @@ module Base
 
 	model PU_F_Window_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|windowheavyfront,
+        mesh = vehicles/StandardRoamerArmor|windowheavyfront,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_R_Window_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|windowheavyrear,
+        mesh = vehicles/StandardRoamerArmor|windowheavyrear,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Bullbar_SheriffRoamer
     {
-        mesh = vehicles/SheriffRoamerArmor|pushbar_1,
+        mesh = vehicles/StandardRoamerArmor|pushbar_1,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Chains_FL_SheriffRoamer
     {
-        mesh = vehicles/SheriffRoamerArmor|chaintires,
+        mesh = vehicles/StandardRoamerArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0041,
+        scale = 0.0043,
     }
 
 	model PU_Chains_FR_SheriffRoamer
     {
-        mesh = vehicles/SheriffRoamerArmor|chaintires,
+        mesh = vehicles/StandardRoamerArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0041,
+        scale = 0.0043,
         invertX = TRUE,
     }
 
 	model PU_Chains_RL_SheriffRoamer
     {
-        mesh = vehicles/SheriffRoamerArmor|chaintires,
+        mesh = vehicles/StandardRoamerArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0041,
+        scale = 0.0043,
     }
 
 	model PU_Chains_RR_SheriffRoamer
     {
-        mesh = vehicles/SheriffRoamerArmor|chaintires,
+        mesh = vehicles/StandardRoamerArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0041,
+        scale = 0.0043,
         invertX = TRUE,
     }
 
 	model PU_Hood_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|hoodlightfront,
+        mesh = vehicles/StandardRoamerArmor|hoodlightfront,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Trunk_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|trunklightrear,
+        mesh = vehicles/StandardRoamerArmor|trunklightrear,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_FL_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|doorfrontlightleft,
+        mesh = vehicles/StandardRoamerArmor|doorfrontlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_FR_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|doorfrontlightleft,
+        mesh = vehicles/StandardRoamerArmor|doorfrontlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -156,14 +156,14 @@ module Base
 
 	model PU_Door_RL_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|doorrearlightleft,
+        mesh = vehicles/StandardRoamerArmor|doorrearlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_RR_SheriffRoamer_Light
     {
-        mesh = vehicles/SheriffRoamerArmor|doorrearlightleft,
+        mesh = vehicles/StandardRoamerArmor|doorrearlightleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -171,28 +171,28 @@ module Base
 
 	model PU_Hood_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|hoodheavyfront,
+        mesh = vehicles/StandardRoamerArmor|hoodheavyfront,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Trunk_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|trunkheavyrear,
+        mesh = vehicles/StandardRoamerArmor|trunkheavyrear,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_FL_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|doorfrontheavyleft,
+        mesh = vehicles/StandardRoamerArmor|doorfrontheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_FR_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|doorfrontheavyleft,
+        mesh = vehicles/StandardRoamerArmor|doorfrontheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -200,14 +200,14 @@ module Base
 
 	model PU_Door_RL_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|doorrearheavyleft,
+        mesh = vehicles/StandardRoamerArmor|doorrearheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }
 
 	model PU_Door_RR_SheriffRoamer_Heavy
     {
-        mesh = vehicles/SheriffRoamerArmor|doorrearheavyleft,
+        mesh = vehicles/StandardRoamerArmor|doorrearheavyleft,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
         invertX = TRUE,
@@ -215,7 +215,7 @@ module Base
 
 	model PU_Rack_SheriffRoamer
     {
-        mesh = vehicles/SheriffRoamerArmor|roofrack,
+        mesh = vehicles/StandardRoamerArmor|roofrack,
         texture = Vehicles/puv_parts,
         scale = 0.0041,
     }

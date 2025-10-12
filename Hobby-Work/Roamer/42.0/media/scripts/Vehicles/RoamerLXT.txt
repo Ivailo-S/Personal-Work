@@ -36,7 +36,7 @@ module Base
 		mechanicType = 2,
 		engineRepairLevel = 5,
 		playerDamageProtection = 1.3,
-		offRoadEfficiency = 1.1,
+		offRoadEfficiency = 1.0,
 
 		model
 		{
@@ -581,6 +581,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = RoamerLXTFL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -589,6 +591,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = RoamerLXTFR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -597,6 +601,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = RoamerLXTRL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -605,6 +611,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = RoamerLXTRR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -656,7 +664,7 @@ module Base
 				{
 					item
 					{
-						type = Base.LugWrench,
+						tags = LugWrench,
 						count = 1,
 						keep = true,
 						equip = primary,
@@ -676,7 +684,7 @@ module Base
 				{
 					item
 					{
-						type = Base.LugWrench,
+						tags = LugWrench,
 						count = 1,
 						keep = true,
 						equip = primary,
@@ -693,6 +701,50 @@ module Base
 			{
 				create = Vehicles.Create.Default,
 			}
+		}
+
+		useChassisPhysicsCollision = false,
+
+		physics box
+		{
+			offset = 0.0000 0.1124 0.0000,
+			extents = 1.0533 0.1657 2.9349,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3136 -0.0059,
+			extents = 1.0651 0.2367 2.8047,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.5858 -0.4674,
+			extents = 1.0533 0.4142 1.5976,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.4262 1.0355,
+			extents = 1.0533 0.0592 0.6391,
+			rotate = 5.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.5917 -1.2959,
+			extents = 1.0533 0.3787 0.1183,
+			rotate = 17.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.5621 0.4850,
+			extents = 1.0533 0.1775 0.5325,
+			rotate = 38.0000 0.0000 0.0000,
 		}
 
 		attachment trailer

@@ -1,0 +1,5 @@
+Alongside this mod is also a collage of development texture files that I've used to make all the Gavril textures that you can find here too. No it's not malware (incredible, I know), but if you wanna make your own custom textures, you're going to need a program named 'Paint.net', as all my texture files were made with that program and use the .pdn filetype.
+
+They should be pretty intuitive to go through and easily modifiable in terms of colours or liveries, but note that some of the layers used in them are scuffed at best and completely ignored at worst. If you need a particular layer from here, you can either just find it as a .png here in the mod or you can spend 10 minutes combing through all of the files since there's so many, some of which are also pretty goddamn inefficiently made too, which you will quickly find.
+
+Other than that, I wish you the best of it all with these textures, and hope you enjoy the rest of this mod!
