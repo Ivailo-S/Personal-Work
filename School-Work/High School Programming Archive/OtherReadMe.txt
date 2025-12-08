@@ -1,1 +1,0 @@
-This folder stores all of my old high school work prior to 2023. Certain key projects here include my Grade 10 DigiPen projects where I spent a semester away to exclusively study game development, and my Grade 11-12 Arduino projects programming simple microcontroller programming.
