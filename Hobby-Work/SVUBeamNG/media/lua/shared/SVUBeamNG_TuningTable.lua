@@ -741,6 +741,12 @@ local function SVU_TuningTable()
 		parts = {}
 	}
 
+	NewCarTuningTable["Limousine"] = {
+		addPartsFromVehicleScript = "",
+		parts = {}
+	}
+
+
 	local carRecipe = "ATABeamNGRecipes"
 
 	-- And for each of the above, include and exclude what each bit actually offers as upgrades.
@@ -945,6 +951,29 @@ local function SVU_TuningTable()
 	NewCarTuningTable["6SeaterVehicle"].parts["ATA2InteractiveTrunkRoofRack"].Default.containerCapacity = 80
 	NewCarTuningTable["6SeaterVehicle"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
 
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowRearLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowRearRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindshield"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindshield"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindshieldRear"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindshieldRear"])
+	NewCarTuningTable["Limousine"].parts["ATA2Bullbar"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2Bullbar"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionTrunk"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionTrunk"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionHood"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionHood"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.containerCapacity = 130
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.MetalPipe = 12
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.SheetMetal = 8
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.MetalBar = 8
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.BlowTorch = 12
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.Screws = 30
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+
+
 	-- Now for each BeamNG model declaration for the templates above
 
 	-- Bruckell LeGran
@@ -1018,6 +1047,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["FossoilD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["McCoyD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["PreD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
+	NewCarTuningTable["FireD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["PostD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["PreD25_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["FleetD25_SCEB"] = NewCarTuningTable["2DoorPickup"]
@@ -1070,8 +1100,11 @@ local function SVU_TuningTable()
 	NewCarTuningTable["GavrilGrandMarshalSport"] = NewCarTuningTable["5DoorSedan"]
 	NewCarTuningTable["GavrilGrandMarshalUndercover"] = NewCarTuningTable["5DoorVehicleWithBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalPolice"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["GavrilGrandMarshalRanger"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalInterceptor"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalTaxi"] = NewCarTuningTable["5DoorVehicleWithLightbar"]
+	NewCarTuningTable["GavrilGrandMarshalLimo"] = NewCarTuningTable["Limousine"]
+	NewCarTuningTable["GavrilGrandMarshalLuxeLimo"] = NewCarTuningTable["Limousine"]
 
 	-- Gavril Roamer
 
@@ -1311,6 +1344,22 @@ local function SVU_TuningTable()
 	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "6SeaterVehicle", "ATA2ProtectionDoorMiddleRight")
 	SVUC_setVehicleRecipesMods(NewCarTuningTable, carRecipe, "6SeaterVehicle", "ATA2InteractiveTrunkRoofRack")
 	SVUC_setVehicleRecipesWheels(NewCarTuningTable, carRecipe, "6SeaterVehicle", "ATA2ProtectionWheels")
+
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowFrontLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowFrontRight")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowRearLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowRearRight")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindshield")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindshieldRear")
+	SVUBeamNG_setVehicleRecipesBullbars(NewCarTuningTable, carRecipe, "Limousine", "ATA2Bullbar")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionTrunk")
+	SVUBeamNG_setVehicleRecipesArmorHood(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionHood")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorFrontLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorFrontRight")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorRearLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorRearRight")
+	SVUC_setVehicleRecipesMods(NewCarTuningTable, carRecipe, "Limousine", "ATA2InteractiveTrunkRoofRack")
+	SVUC_setVehicleRecipesWheels(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWheels")
 
 	ATA2Tuning_AddNewCars(NewCarTuningTable)
 end

@@ -2,155 +2,140 @@ module Base
 {
 	model GavrilGrandMarshalSportBase
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalSport,
+		mesh = vehicles/GavrilGrandMarshalSport,
 		shader = vehicle_norandom_multiuv,
 		invertX = FALSE,
-		scale = 0.410,
+		scale = 0.280,
 	}
 	model GavrilGrandMarshalSportWheelFL
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalSportWheel,
-		texture = vehicles/Gavril_WheelD,
+		mesh = vehicles/GavrilGrandMarshalSportWheel,
+		texture = vehicles/GavrilWheelC,
 		shader = vehiclewheel,
-		scale = 0.448,
+		scale = 0.351,
 	}
 	model GavrilGrandMarshalSportWheelFR
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalSportWheel,
-		texture = vehicles/Gavril_WheelD,
+		mesh = vehicles/GavrilGrandMarshalSportWheel,
+		texture = vehicles/GavrilWheelC,
 		shader = vehiclewheel,
-		scale = 0.448,
+		scale = 0.351,
 	}
 	model GavrilGrandMarshalSportWheelRL
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalSportWheel,
-		texture = vehicles/Gavril_WheelD,
+		mesh = vehicles/GavrilGrandMarshalSportWheel,
+		texture = vehicles/GavrilWheelC,
 		shader = vehiclewheel,
-		scale = 0.448,
+		scale = 0.351,
 	}
 	model GavrilGrandMarshalSportWheelRR
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalSportWheel,
-		texture = vehicles/Gavril_WheelD,
+		mesh = vehicles/GavrilGrandMarshalSportWheel,
+		texture = vehicles/GavrilWheelC,
 		shader = vehiclewheel,
-		scale = 0.448,
+		scale = 0.351,
 	}
 	vehicle GavrilGrandMarshalSport
 	{
 		mechanicType = 3,
-		engineRepairLevel = 5,
+		engineRepairLevel = 6,
 		playerDamageProtection = 1.1,
 		offRoadEfficiency = 0.8,
 
 		model
 		{
 			file = GavrilGrandMarshalSportBase,
-			scale = 1.7800,
-			offset = 0.0000 0.2809 0.0000,
+			scale = 1.7900,
+			offset = 0.0000 -0.0168 0.0391,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportA_Shell,
+			texture = vehicles/GrandMarshalSportA,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportB_Shell,
+			texture = vehicles/GrandMarshalSportB,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportC_Shell,
+			texture = vehicles/GrandMarshalSportC,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportD_Shell,
+			texture = vehicles/GrandMarshalSportD,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportE_Shell,
+			texture = vehicles/GrandMarshalSportA,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportF_Shell,
+			texture = vehicles/GrandMarshalSportB,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportG_Shell,
+			texture = vehicles/GrandMarshalSportC,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportH_Shell,
+			texture = vehicles/GrandMarshalSportD,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportI_Shell,
+			texture = vehicles/GrandMarshalSportE,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportJ_Shell,
+			texture = vehicles/GrandMarshalSportF,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportK_Shell,
+			texture = vehicles/GrandMarshalSportG,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportL_Shell,
+			texture = vehicles/GrandMarshalSportH,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportM_Shell,
+			texture = vehicles/GrandMarshalSportI,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportN_Shell,
+			texture = vehicles/GrandMarshalSportJ,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportA_Shell,
+			texture = vehicles/GrandMarshalSportK,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalSportB_Shell,
-		}
-
-		skin
-		{
-			texture = vehicles/GavrilGrandMarshalSportH_Shell,
-		}
-
-		skin
-		{
-			texture = vehicles/GavrilGrandMarshalSportM_Shell,
-		}
-
-		skin
-		{
-			texture = vehicles/GavrilGrandMarshalSportN_Shell,
+			texture = vehicles/GrandMarshalSportL,
 		}
 
 		textureMask = vehicles/GavrilMask,
 		textureLights = vehicles/GavrilLights,
-		textureDamage1Overlay = vehicles/GavrilBlood,
-		textureDamage2Overlay = vehicles/GavrilBlood,
-		textureDamage1Shell = vehicles/GavrilDamageLight,
-		textureDamage2Shell = vehicles/GavrilDamageHeavy,
-		textureRust = vehicles/GavrilRust,
+		textureDamage1Overlay = vehicles/SportGavrilBlood,
+		textureDamage2Overlay = vehicles/SportGavrilBlood,
+		textureDamage1Shell = vehicles/SportGavrilLightDamage,
+		textureDamage2Shell = vehicles/SportGavrilHeavyDamage,
+		textureRust = vehicles/Blank_Placeholder,
 
 		sound
 		{
@@ -161,29 +146,29 @@ module Base
 			ignitionFail = VehicleIgnitionFailSportsCar,
 		}
 
-		extents = 0.9551 0.6742 2.6517,
-		mass = 1000,
-		physicsChassisShape = 0.9551 0.6404 2.6517,
-		centerOfMassOffset = 0.0000 0.3034 -0.0112,
-		shadowExtents = 0.9589 2.7297,
+		extents = 0.9721 0.6369 2.6592,
+		mass = 970,
+		physicsChassisShape = 0.9832 0.6369 2.6592,
+		centerOfMassOffset = 0.0000 0.3128 -0.0112,
+		shadowExtents = 0.9702 2.7410,
 		shadowOffset = 0.0000 -0.0006,
-		engineForce = 5700,
+		engineForce = 5400,
 		maxSpeed = 120f,
-		engineLoudness = 75,
+		engineLoudness = 80,
 		engineQuality = 75,
 		brakingForce = 80,
 		gearRatioCount = 4,
 		gearRatioR = 3.8,
 		gearRatio1 = 3.8,
 		gearRatio2 = 2.4,
-		gearRatio3 = 1.5,
+		gearRatio3 = 1.6,
 		gearRatio4 = 1.2,
 		extentsOffset = 0.5 0.5,
 		stoppingMovementForce = 4.0f,
 		rollInfluence = 1.0f,
 		steeringIncrement = 0.04,
 		steeringClamp = 0.3,
-		suspensionStiffness = 35,
+		suspensionStiffness = 30,
 		suspensionCompression = 3.53,
 		suspensionDamping = 2.88,
 		maxSuspensionTravelCm = 10,
@@ -196,32 +181,32 @@ module Base
 		wheel FrontLeft
 		{
 			front = true,
-			offset = 0.3876 -0.3034 0.8315,
-			radius = 0.15f,
+			offset = 0.4134 0.0223 0.8101,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
 		wheel FrontRight
 		{
 			front = true,
-			offset = -0.3876 -0.3034 0.8315,
-			radius = 0.15f,
+			offset = -0.4134 0.0223 0.8101,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.3876 -0.3034 -0.6685,
-			radius = 0.15f,
+			offset = 0.4134 0.0168 -0.6927,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.3876 -0.3034 -0.6685,
-			radius = 0.15f,
+			offset = -0.4134 0.0168 -0.6927,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
@@ -231,13 +216,13 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.1910 -0.0843 0.0281,
+				offset = 0.2011 0.2123 -0.0056,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = 0.6348 -0.4831 0.1404,
+				offset = 0.6480 -0.1732 0.1397,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontLeft,
 			}
@@ -247,13 +232,13 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.1910 -0.0843 0.0281,
+				offset = -0.2011 0.2123 -0.0056,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = -0.6348 -0.4831 0.1404,
+				offset = -0.6480 -0.1732 0.1397,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontRight,
 			}
@@ -263,13 +248,13 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.1910 -0.0843 -0.4382,
+				offset = 0.2011 0.2123 -0.5140,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = 0.6348 -0.4831 -0.3427,
+				offset = 0.6480 -0.1732 -0.3464,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatRearLeft,
 			}
@@ -279,13 +264,13 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.1910 -0.0843 -0.4382,
+				offset = -0.2011 0.2123 -0.5140,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = -0.6404 -0.4831 -0.3427,
+				offset = -0.6480 -0.1732 -0.3464,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatRearRight,
 			}
@@ -293,57 +278,57 @@ module Base
 
 		area Engine
 		{
-			xywh = 0.0000 1.6180 0.9663 0.5843,
+			xywh = 0.0000 1.6089 0.9721 0.5922,
 		}
 
 		area TruckBed
 		{
-			xywh = 0.0000 -1.6180 0.9663 0.5843,
+			xywh = 0.0000 -1.6201 0.9721 0.5922,
 		}
 
 		area SeatFrontLeft
 		{
-			xywh = 0.7022 0.1910 0.4494 0.5056,
+			xywh = 0.7039 0.2123 0.4581 0.5475,
 		}
 
 		area SeatFrontRight
 		{
-			xywh = -0.7022 0.1910 0.4494 0.5056,
+			xywh = -0.7039 0.2123 0.4581 0.5475,
 		}
 
 		area SeatRearLeft
 		{
-			xywh = 0.7022 -0.2697 0.4494 0.5056,
+			xywh = 0.7039 -0.3073 0.4581 0.4916,
 		}
 
 		area SeatRearRight
 		{
-			xywh = -0.7022 -0.2697 0.4494 0.5056,
+			xywh = -0.7039 -0.3073 0.4581 0.4916,
 		}
 
 		area GasTank
 		{
-			xywh = 0.7022 -0.9270 0.4494 0.4494,
+			xywh = 0.7039 -1.0056 0.4581 0.4581,
 		}
 
 		area TireFrontLeft
 		{
-			xywh = 0.7022 0.8764 0.4494 0.4494,
+			xywh = 0.7039 0.8492 0.4581 0.4581,
 		}
 
 		area TireFrontRight
 		{
-			xywh = -0.7022 0.8764 0.4494 0.4494,
+			xywh = -0.7039 0.8492 0.4581 0.4581,
 		}
 
 		area TireRearLeft
 		{
-			xywh = 0.7022 -0.6910 0.4494 0.4494,
+			xywh = 0.7039 -0.6425 0.4581 0.4581,
 		}
 
 		area TireRearRight
 		{
-			xywh = -0.7022 -0.6910 0.4494 0.4494,
+			xywh = -0.7039 -0.6425 0.4581 0.4581,
 		}
 
 		template = Trunk/part/TruckBed,
@@ -355,7 +340,7 @@ module Base
 
 			container
 			{
-				capacity = 58,
+				capacity = 55,
 			}
 		}
 
@@ -452,6 +437,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalSportWheelFL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -460,6 +447,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalSportWheelFR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -468,6 +457,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalSportWheelRL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -476,6 +467,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalSportWheelRR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -486,14 +479,14 @@ module Base
 
 		attachment trailer
 		{
-			offset = 0.0000 -0.2360 -1.3202,
+			offset = 0.0000 0.0391 -1.3690,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = -1.0000,
 		}
 
 		attachment trailerfront
 		{
-			offset = 0.0000 -0.2640 1.2753,
+			offset = 0.0000 0.0391 1.2753,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = 1.0000,
 		}

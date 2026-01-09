@@ -1,5 +1,0 @@
-For some reason, on some of these armor models certain parts will not show up correctly on very specific regions of the vehicles (ex. the variable front/rear tyre sizes to the Gavril D-Series duallies and the middle doors of the 6-seater Roamers). I have literally no idea why, but in order to fix this you need to export these certain parts separately into their own dedicated armor file.
-
-If you want to find if this is affecting you, try exporting your vehicle armor model with just the missing part, and see if it then shows up in the correct place. If so, then just export that separately as its own file, change the part code to refer to that armor file instead, and it should then work. Technology is truly incredible, isn't it?
-
-This has been your public service announcement from a slightly sleep deprived modder.

@@ -1,0 +1,616 @@
+module Base
+{
+	model GavrilGrandMarshalLuxeLimoBase
+	{
+		mesh = vehicles/GavrilGrandMarshalLimo,
+		shader = vehicle_norandom_multiuv,
+		invertX = FALSE,
+		scale = 0.280,
+	}
+	model GavrilGrandMarshalLuxeLimoWheelFL
+	{
+		mesh = vehicles/GavrilGrandMarshalLuxeWheel,
+		texture = vehicles/GavrilWheelB,
+		scale = 0.351,
+	}
+	model GavrilGrandMarshalLuxeLimoWheelFR
+	{
+		mesh = vehicles/GavrilGrandMarshalLuxeWheel,
+		texture = vehicles/GavrilWheelB,
+		scale = 0.351,
+	}
+	model GavrilGrandMarshalLuxeLimoWheelRL
+	{
+		mesh = vehicles/GavrilGrandMarshalLuxeWheel,
+		texture = vehicles/GavrilWheelB,
+		scale = 0.351,
+	}
+	model GavrilGrandMarshalLuxeLimoWheelRR
+	{
+		mesh = vehicles/GavrilGrandMarshalLuxeWheel,
+		texture = vehicles/GavrilWheelB,
+		scale = 0.351,
+	}
+	vehicle GavrilGrandMarshalLuxeLimo
+    {
+        mechanicType = 1,
+        engineRepairLevel = 4,
+        playerDamageProtection = 1.1,
+        offRoadEfficiency = 0.9,
+        zombieType = Generic01;Generic02;Generic03;Generic04;Generic05,
+
+        model
+        {
+            file = GavrilGrandMarshalLuxeLimoBase,
+            scale = 1.7900,
+            offset = 0.0000 -0.0168 -0.1285,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoA,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoB,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoC,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoD,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoE,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoF,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoG,
+        }
+
+        skin
+        {
+            texture = vehicles/GrandMarshalLuxeLimoH,
+        }
+
+        textureMask = vehicles/GavrilLimoMask,
+        textureLights = vehicles/GavrilLimoLights,
+        textureDamage1Overlay = vehicles/LimoGavrilBlood,
+        textureDamage2Overlay = vehicles/LimoGavrilBlood,
+        textureDamage1Shell = vehicles/LimoGavrilLightDamage,
+        textureDamage2Shell = vehicles/LimoGavrilHeavyDamage,
+        textureRust = vehicles/Blank_Placeholder,
+
+        sound
+        {
+            alarmLoop = VehicleAlarmA VehicleAlarmB VehicleAlarmC VehicleAlarmD VehicleAlarmE,
+            engine = VehicleEngineCarNormal,
+            engineStart = VehicleEngineCarNormal,
+            engineTurnOff = VehicleEngineCarNormal,
+            horn = VehicleHornSportsCar,
+            ignitionFail = VehicleIgnitionFailCarNormal,
+        }
+
+	extents = 0.9721 0.6369 4.2682,
+	mass = 1250,
+	physicsChassisShape = 0.9832 0.6369 4.2682,
+        centerOfMassOffset = 0.0000 0.3073 0.0000,
+        shadowExtents = 0.9702 4.4728,
+        shadowOffset = 0.0000 -0.0006,
+        engineForce = 4500,
+        maxSpeed = 90f,
+        engineLoudness = 75,
+        engineQuality = 70,
+        brakingForce = 75,
+        gearRatioCount = 4,
+        gearRatioR = 3.8,
+        gearRatio1 = 3.8,
+        gearRatio2 = 2.4,
+        gearRatio3 = 1.6,
+        gearRatio4 = 1.2,
+        extentsOffset = 0.5 0.5,
+        stoppingMovementForce = 4.0f,
+        rollInfluence = 1.0f,
+        steeringIncrement = 0.04,
+        steeringClamp = 0.3,
+        suspensionStiffness = 30,
+        suspensionCompression = 3.53,
+        suspensionDamping = 2.88,
+        maxSuspensionTravelCm = 10,
+        suspensionRestLength = 0.20f,
+        wheelFriction = 1.3f,
+        frontEndHealth = 150,
+        rearEndHealth = 150,
+        seats = 6,
+
+        wheel FrontLeft
+        {
+            front = true,
+            offset = 0.4134 0.0168 1.7877,
+            radius = 0.17f,
+            width = 0.2f,
+        }
+
+        wheel FrontRight
+        {
+            front = true,
+            offset = -0.4134 0.0168 1.7877,
+            radius = 0.17f,
+            width = 0.2f,
+        }
+
+        wheel RearLeft
+        {
+            front = false,
+            offset = 0.4134 0.0112 -1.3240,
+            radius = 0.17f,
+            width = 0.2f,
+        }
+
+        wheel RearRight
+        {
+            front = false,
+            offset = -0.4134 0.0112 -1.3240,
+            radius = 0.17f,
+            width = 0.2f,
+        }
+
+        template = PassengerSeat6,
+
+        passenger FrontLeft
+        {
+            position inside
+            {
+                offset = 0.1955 0.2067 0.9441,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.6480 -0.1676 1.0615,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontLeft,
+            }
+
+            switchSeat MiddleLeft
+            {
+            }
+
+            switchSeat MiddleRight
+            {
+            }
+
+            switchSeat RearLeft
+            {
+            }
+
+            switchSeat RearRight
+            {
+            }
+        }
+
+        passenger FrontRight
+        {
+            position inside
+            {
+                offset = -0.1955 0.2067 0.9441,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = -0.6480 -0.1676 1.0615,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatFrontRight,
+            }
+
+            switchSeat MiddleLeft
+            {
+            }
+
+            switchSeat MiddleRight
+            {
+            }
+
+            switchSeat RearLeft
+            {
+            }
+
+            switchSeat RearRight
+            {
+            }
+
+        }
+
+        passenger MiddleLeft
+        {
+            position inside
+            {
+                offset = 0.2011 0.2123 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+            }
+
+            switchSeat FrontLeft
+            {
+            }
+
+            switchSeat FrontRight
+            {
+            }
+        }
+
+        passenger MiddleRight
+        {
+            position inside
+            {
+                offset = -0.2011 0.2123 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+            }
+
+            switchSeat FrontLeft
+            {
+            }
+
+            switchSeat FrontRight
+            {
+            }
+        }
+
+        passenger RearLeft
+        {
+            position inside
+            {
+                offset = 0.1955 0.2067 -1.1117,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = 0.6480 -0.1676 -0.9777,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatRearLeft,
+            }
+
+            switchSeat FrontLeft
+            {
+            }
+
+            switchSeat FrontRight
+            {
+            }
+        }
+
+        passenger RearRight
+        {
+            position inside
+            {
+                offset = -0.1955 0.2067 -1.1117,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+
+            position outside
+            {
+                offset = -0.6480 -0.1676 -0.9777,
+                rotate = 0.0000 0.0000 0.0000,
+                area = SeatRearRight,
+            }
+
+            switchSeat FrontLeft
+            {
+            }
+
+            switchSeat FrontRight
+            {
+            }
+        }
+
+        area Engine
+        {
+            xywh = 0.0000 2.4302 0.9721 0.5922,
+        }
+
+        area TruckBed
+        {
+            xywh = 0.0000 -2.4302 0.9721 0.5922,
+        }
+
+        area SeatFrontLeft
+        {
+            xywh = 0.7039 1.0223 0.4581 0.5587,
+        }
+
+        area SeatFrontRight
+        {
+            xywh = -0.7039 1.0223 0.4581 0.5587,
+        }
+
+        area SeatMiddleLeft
+        {
+            xywh = 0.7039 -1.0726 0.4581 0.4916,
+        }
+
+        area SeatMiddleRight
+        {
+            xywh = -0.7039 -1.0726 0.4581 0.4916,
+        }
+
+        area SeatRearLeft
+        {
+            xywh = 0.7039 -1.0950 0.4581 0.4916,
+        }
+
+        area SeatRearRight
+        {
+            xywh = -0.7039 -1.0950 0.4581 0.4916,
+        }
+
+        area GasTank
+        {
+            xywh = 0.7039 -1.7709 0.4581 0.4581,
+        }
+
+        area TireFrontLeft
+        {
+            xywh = 0.7039 1.6816 0.4581 0.4581,
+        }
+
+        area TireFrontRight
+        {
+            xywh = -0.7039 1.6816 0.4581 0.4581,
+        }
+
+        area TireRearLeft
+        {
+            xywh = 0.7039 -1.4302 0.4581 0.4581,
+        }
+
+        area TireRearRight
+        {
+            xywh = -0.7039 -1.4302 0.4581 0.4581,
+        }
+
+        template = Trunk/part/TruckBed,
+        template = TrunkDoor,
+
+        part TruckBed
+        {
+            itemType = Base.NormalTrunk,
+
+            container
+            {
+                capacity = 55,
+            }
+        }
+
+        template = Seat/part/SeatFrontLeft,
+        template = Seat/part/SeatFrontRight,
+        template = Seat/part/SeatMiddleLeft,
+        template = Seat/part/SeatMiddleRight,
+        template = Seat/part/SeatRearLeft,
+        template = Seat/part/SeatRearRight,
+
+        part SeatMiddleLeft
+        {
+            door =,
+        }
+
+        part SeatMiddleRight
+        {
+            door =,
+        }
+
+        part Seat*
+        {
+            table install
+            {
+                skills = Mechanics:2,
+            }
+
+            table uninstall
+            {
+                skills = Mechanics:2,
+            }
+        }
+
+        part GloveBox
+        {
+            area = SeatFrontRight,
+            itemType = Base.GloveBox,
+            mechanicRequireKey = true,
+
+            container
+            {
+                capacity = 8,
+                test = Vehicles.ContainerAccess.GloveBox,
+            }
+
+            lua
+            {
+                create = Vehicles.Create.Default,
+            }
+        }
+
+        template = GasTank,
+        template = Battery,
+        template = Engine,
+        template = Muffler,
+        template = EngineDoor,
+
+        part Heater
+        {
+            category = engine,
+
+            lua
+            {
+                update = Vehicles.Update.Heater,
+            }
+        }
+
+        part PassengerCompartment
+        {
+            category = nodisplay,
+
+            lua
+            {
+                update = Vehicles.Update.PassengerCompartment,
+            }
+        }
+
+        template = Windshield/part/Windshield,
+        template = Windshield/part/WindshieldRear,
+        template = Window/part/WindowFrontLeft,
+        template = Window/part/WindowFrontRight,
+        template = Window/part/WindowRearLeft,
+        template = Window/part/WindowRearRight,
+
+        part Window*
+        {
+            anim Open
+            {
+                sound = VehicleWindowElectricOpen,
+            }
+
+            anim Close
+            {
+                sound = VehicleWindowElectricClose,
+            }
+        }
+
+        template = Door/part/DoorFrontLeft,
+        template = Door/part/DoorFrontRight,
+        template = Door/part/DoorRearLeft,
+        template = Door/part/DoorRearRight,
+        template = Tire,
+
+        part TireFrontLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = GavrilGrandMarshalLuxeLimoWheelFL,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = GavrilGrandMarshalLuxeLimoWheelFR,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model InflatedTirePlusWheel
+            {
+                file = GavrilGrandMarshalLuxeLimoWheelRL,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        part TireRearRight
+        {
+            model InflatedTirePlusWheel
+            {
+                file = GavrilGrandMarshalLuxeLimoWheelRR,
+                offset = 0.0000 0.0000 0.0000,
+                rotate = 0.0000 0.0000 0.0000,
+            }
+        }
+
+        template = Brake,
+        template = Suspension,
+        template = Radio,
+        template = LimoTV/part/Television,
+        template = Headlight,
+        useChassisPhysicsCollision = false,
+
+        physics box
+        {
+            offset = 0.0000 0.1006 0.0000,
+            extents = 0.9665 0.2011 4.2570,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.2626 1.6145,
+            extents = 0.9661 0.2147 0.7062,
+            rotate = 6.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.2849 -1.8324,
+            extents = 0.9661 0.2034 0.4746,
+            rotate = -4.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.4134 -0.1676,
+            extents = 0.9665 0.4302 2.3743,
+            rotate = 0.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.3575 1.1171,
+            extents = 0.9661 0.3503 0.4520,
+            rotate = 32.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.4190 -1.4358,
+            extents = 0.9661 0.2260 0.3616,
+            rotate = -37.0000 0.0000 0.0000,
+        }
+
+        physics box
+        {
+            offset = 0.0000 0.2402 2.0278,
+            extents = 0.9153 0.1356 0.1469,
+            rotate = 18.0000 0.0000 0.0000,
+        }
+
+        attachment trailer
+        {
+            offset = 0.0000 0.0390 -1.9944,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = -1.0000,
+        }
+
+        attachment trailerfront
+        {
+            offset = 0.0000 0.0391 2.2512,
+            rotate = 0.0000 0.0000 0.0000,
+            zoffset = 1.0000,
+        }
+    }
+}

@@ -740,6 +740,11 @@ local function SVU_TuningTable()
 		parts = {}
 	}
 
+	NewCarTuningTable["Limousine"] = {
+		addPartsFromVehicleScript = "",
+		parts = {}
+	}
+
 	local carRecipe = "ATABeamNGRecipes"
 
 	-- And for each of the above, include and exclude what each bit actually offers as upgrades.
@@ -753,7 +758,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["2DoorPickup"].parts["ATA2ProtectionHood"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionHood"])
 	NewCarTuningTable["2DoorPickup"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
 	NewCarTuningTable["2DoorPickup"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
-	NewCarTuningTable["2DoorPickup"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["2DoorPickup"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["FarmhandPickup"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["FarmhandPickup"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -763,7 +768,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["FarmhandPickup"].parts["ATA2ProtectionHood"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionHood"])
 	NewCarTuningTable["FarmhandPickup"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
 	NewCarTuningTable["FarmhandPickup"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
-	NewCarTuningTable["FarmhandPickup"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["FarmhandPickup"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["4DoorPickup"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["4DoorPickup"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -778,7 +783,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["4DoorPickup"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
 	NewCarTuningTable["4DoorPickup"].parts["ATA2ProtectionDoorRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearLeft"])
 	NewCarTuningTable["4DoorPickup"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
-	NewCarTuningTable["4DoorPickup"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["4DoorPickup"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["3DoorVehicle"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["3DoorVehicle"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -792,7 +797,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["3DoorVehicle"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
 	NewCarTuningTable["3DoorVehicle"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
 	NewCarTuningTable["3DoorVehicle"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
-	NewCarTuningTable["3DoorVehicle"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["3DoorVehicle"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["3DoorVehicleWithBullbar"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["3DoorVehicleWithBullbar"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -805,7 +810,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["3DoorVehicleWithBullbar"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
 	NewCarTuningTable["3DoorVehicleWithBullbar"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
 	NewCarTuningTable["3DoorVehicleWithBullbar"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
-	NewCarTuningTable["3DoorVehicleWithBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["3DoorVehicleWithBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["3DoorVehicleWithLightbar"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["3DoorVehicleWithLightbar"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -818,7 +823,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["3DoorVehicleWithLightbar"].parts["ATA2ProtectionHood"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionHood"])
 	NewCarTuningTable["3DoorVehicleWithLightbar"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
 	NewCarTuningTable["3DoorVehicleWithLightbar"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
-	NewCarTuningTable["3DoorVehicleWithLightbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["3DoorVehicleWithLightbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -830,7 +835,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionHood"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionHood"])
 	NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
 	NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
-	NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["5DoorSedan"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["5DoorSedan"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -846,7 +851,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["5DoorSedan"].parts["ATA2ProtectionDoorRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearLeft"])
 	NewCarTuningTable["5DoorSedan"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
 	NewCarTuningTable["5DoorSedan"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
-	NewCarTuningTable["5DoorSedan"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["5DoorSedan"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["5DoorWagon"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["5DoorWagon"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -863,7 +868,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["5DoorWagon"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
 	NewCarTuningTable["5DoorWagon"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
 	NewCarTuningTable["5DoorWagon"].parts["ATA2InteractiveTrunkRoofRack"].Default.containerCapacity = 70
-	NewCarTuningTable["5DoorWagon"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["5DoorWagon"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["5DoorVehicleWithLightbar"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["5DoorVehicleWithLightbar"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -878,7 +883,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["5DoorVehicleWithLightbar"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
 	NewCarTuningTable["5DoorVehicleWithLightbar"].parts["ATA2ProtectionDoorRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearLeft"])
 	NewCarTuningTable["5DoorVehicleWithLightbar"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
-	NewCarTuningTable["5DoorVehicleWithLightbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["5DoorVehicleWithLightbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["5DoorVehicleWithBullbar"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["5DoorVehicleWithBullbar"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -893,7 +898,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["5DoorVehicleWithBullbar"].parts["ATA2ProtectionDoorRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearLeft"])
 	NewCarTuningTable["5DoorVehicleWithBullbar"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
 	NewCarTuningTable["5DoorVehicleWithBullbar"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
-	NewCarTuningTable["5DoorVehicleWithBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["5DoorVehicleWithBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["5DoorVehicleExtendedWithBullbar"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["5DoorVehicleExtendedWithBullbar"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -909,7 +914,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["5DoorVehicleExtendedWithBullbar"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
 	NewCarTuningTable["5DoorVehicleExtendedWithBullbar"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
 	NewCarTuningTable["5DoorVehicleExtendedWithBullbar"].parts["ATA2InteractiveTrunkRoofRack"].Default.containerCapacity = 80
-	NewCarTuningTable["5DoorVehicleExtendedWithBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["5DoorVehicleExtendedWithBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -923,7 +928,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
 	NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionDoorRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearLeft"])
 	NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
-	NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	NewCarTuningTable["6SeaterVehicle"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
 	NewCarTuningTable["6SeaterVehicle"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
@@ -940,7 +945,29 @@ local function SVU_TuningTable()
 	NewCarTuningTable["6SeaterVehicle"].parts["ATA2ProtectionDoorMiddleRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorMiddleRight"])
 	NewCarTuningTable["6SeaterVehicle"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
 	NewCarTuningTable["6SeaterVehicle"].parts["ATA2InteractiveTrunkRoofRack"].Default.containerCapacity = 80
-	NewCarTuningTable["6SeaterVehicle"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWheels"])
+	NewCarTuningTable["6SeaterVehicle"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
+
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowFrontRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowRearLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindowRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindowRearRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindshield"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindshield"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWindshieldRear"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionWindshieldRear"])
+	NewCarTuningTable["Limousine"].parts["ATA2Bullbar"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2Bullbar"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionTrunk"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionTrunk"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionHood"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionHood"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorFrontLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorFrontRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorFrontRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorRearLeft"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearLeft"])
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionDoorRearRight"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2ProtectionDoorRearRight"])
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"] = copy(TemplateTuningTable["TemplateBeamNG"].parts["ATA2InteractiveTrunkRoofRack"])
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.containerCapacity = 130
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.MetalPipe = 12
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.SheetMetal = 8
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.MetalBar = 8
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.BlowTorch = 12
+	NewCarTuningTable["Limousine"].parts["ATA2InteractiveTrunkRoofRack"].Default.install.use.Screws = 30
+	NewCarTuningTable["Limousine"].parts["ATA2ProtectionWheels"] = copy(TemplateTuningTable["TemplateVehicle"].parts["ATA2ProtectionWheels"])
 
 	-- Now for each BeamNG model declaration for the templates above
 
@@ -1012,9 +1039,12 @@ local function SVU_TuningTable()
 	NewCarTuningTable["PostD15_4WDSCSB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["SportD15_SCSB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["FleetD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
+	NewCarTuningTable["AirportSecurityD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
+	NewCarTuningTable["AirportServiceD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["FossoilD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["McCoyD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["PreD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
+	NewCarTuningTable["FireD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["PostD15_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["PreD25_SCEB"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["FleetD25_SCEB"] = NewCarTuningTable["2DoorPickup"]
@@ -1054,6 +1084,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["PostD25_CCEB"] = NewCarTuningTable["4DoorPickup"]
 	NewCarTuningTable["PostDuallyD25_CCEB"] = NewCarTuningTable["4DoorPickup"]
 	NewCarTuningTable["FleetBoxTruckD45"] = NewCarTuningTable["2DoorPickup"]
+	NewCarTuningTable["AirportCateringBoxTruckD45"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["GenFacBoxTruckD45"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["GigaMartBoxTruckD45"] = NewCarTuningTable["2DoorPickup"]
 	NewCarTuningTable["KnoxDistilleryBoxTruckD45"] = NewCarTuningTable["2DoorPickup"]
@@ -1067,13 +1098,22 @@ local function SVU_TuningTable()
 	NewCarTuningTable["GavrilGrandMarshalSport"] = NewCarTuningTable["5DoorSedan"]
 	NewCarTuningTable["GavrilGrandMarshalUndercover"] = NewCarTuningTable["5DoorVehicleWithBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalPolice"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["GavrilGrandMarshalLouisvillePolice"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["GavrilGrandMarshalLouisvilleCounty"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["GavrilGrandMarshalWestPointPolice"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["GavrilGrandMarshalMeadeCounty"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["GavrilGrandMarshalBulletinCounty"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["GavrilGrandMarshalRanger"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalInterceptor"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalTaxi"] = NewCarTuningTable["5DoorVehicleWithLightbar"]
+	NewCarTuningTable["GavrilGrandMarshalLimo"] = NewCarTuningTable["Limousine"]
+	NewCarTuningTable["GavrilGrandMarshalLuxeLimo"] = NewCarTuningTable["Limousine"]
 
 	-- Gavril Roamer
 
 	NewCarTuningTable["RoamerI6"] = NewCarTuningTable["5DoorSedan"]
 	NewCarTuningTable["RoamerFossoil"] = NewCarTuningTable["5DoorSedan"]
+	NewCarTuningTable["RoamerAirportSecurity"] = NewCarTuningTable["5DoorSedan"]
 	NewCarTuningTable["RoamerMcCoy"] = NewCarTuningTable["5DoorSedan"]
 	NewCarTuningTable["RoamerSheriff"] = NewCarTuningTable["5DoorVehicleWithBullbar"]
 	NewCarTuningTable["RoamerFire"] = NewCarTuningTable["5DoorVehicleExtendedWithBullbar"]
@@ -1308,6 +1348,22 @@ local function SVU_TuningTable()
 	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "6SeaterVehicle", "ATA2ProtectionDoorMiddleRight")
 	SVUC_setVehicleRecipesMods(NewCarTuningTable, carRecipe, "6SeaterVehicle", "ATA2InteractiveTrunkRoofRack")
 	SVUC_setVehicleRecipesWheels(NewCarTuningTable, carRecipe, "6SeaterVehicle", "ATA2ProtectionWheels")
+
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowFrontLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowFrontRight")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowRearLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindowRearRight")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindshield")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWindshieldRear")
+	SVUBeamNG_setVehicleRecipesBullbars(NewCarTuningTable, carRecipe, "Limousine", "ATA2Bullbar")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionTrunk")
+	SVUBeamNG_setVehicleRecipesArmorHood(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionHood")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorFrontLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorFrontRight")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorRearLeft")
+	SVUBeamNG_setVehicleRecipesArmor(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionDoorRearRight")
+	SVUC_setVehicleRecipesMods(NewCarTuningTable, carRecipe, "Limousine", "ATA2InteractiveTrunkRoofRack")
+	SVUC_setVehicleRecipesWheels(NewCarTuningTable, carRecipe, "Limousine", "ATA2ProtectionWheels")
 
 	ATA2Tuning_AddNewCars(NewCarTuningTable)
 end

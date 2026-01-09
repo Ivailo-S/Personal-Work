@@ -1,3 +1,0 @@
-ItemName_EN = {
-    ItemName_Autotsar.ATABeamNGTuningMag = "Magazine «Autotsar Tuning Atelier - BeamNG Models»",
-}

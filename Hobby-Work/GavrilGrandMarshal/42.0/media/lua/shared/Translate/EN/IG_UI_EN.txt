@@ -1,8 +1,19 @@
 IG_UI_EN = {
-	IGUI_VehicleNameGavrilGrandMarshal = "Gavril Grand Marshal"
-	IGUI_VehicleNameGavrilGrandMarshalLuxe = "Gavril Grand Marshal Luxe"
-	IGUI_VehicleNameGavrilGrandMarshalTaxi = "Gavril Grand Marshal Fleet Taxi"
-	IGUI_VehicleNameGavrilGrandMarshalSport = "Gavril Grand Marshal Sport"
+	IGUI_VehicleNameGavrilGrandMarshal = "Gavril Grand Marshal V8 Base"
+	IGUI_VehicleNameGavrilGrandMarshalLuxe = "Gavril Grand Marshal V8 Luxe"
+	IGUI_VehicleNameGavrilGrandMarshalTaxi = "Gavril Grand Marshal V8 Fleet"
+	IGUI_VehicleNameGavrilGrandMarshalSport = "Gavril Grand Marshal V8 Sport"
 	IGUI_VehicleNameGavrilGrandMarshalUndercover = "Gavril Grand Marshal Undercover Package"
 	IGUI_VehicleNameGavrilGrandMarshalPolice = "Gavril Grand Marshal Police Package"
+	IGUI_VehicleNameGavrilGrandMarshalRanger = "Gavril Grand Marshal Ranger Package"
 	IGUI_VehicleNameGavrilGrandMarshalInterceptor = "Gavril Grand Marshal Interceptor Package"
+	IGUI_VehicleNameGavrilGrandMarshalLimo = "Gavril Grand Marshal Limousine V8"
+	IGUI_VehicleNameGavrilGrandMarshalLuxeLimo = "Gavril Grand Marshal Limousine V8 Luxe"
+
+	IGUI_VehicleNameGavrilGrandMarshalBulletinCounty = "Gavril Grand Marshal Police Package"
+	IGUI_VehicleNameGavrilGrandMarshalMeadeCounty = "Gavril Grand Marshal Police Package"
+	IGUI_VehicleNameGavrilGrandMarshalLouisvilleCounty = "Gavril Grand Marshal Police Package"
+	IGUI_VehicleNameGavrilGrandMarshalWestPointPolice = "Gavril Grand Marshal Police Package"
+	IGUI_VehicleNameGavrilGrandMarshalLouisvillePolice = "Gavril Grand Marshal Police Package"
+
+   	IGUI_VehiclePartTelevision = "Television"

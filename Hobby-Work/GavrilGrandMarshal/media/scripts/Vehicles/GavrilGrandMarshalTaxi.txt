@@ -2,38 +2,38 @@ module Base
 {
 	model GavrilGrandMarshalTaxiBase
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalTaxi,
+		mesh = vehicles/GavrilGrandMarshalTaxi,
 		shader = vehicle_norandom_multiuv,
 		invertX = FALSE,
-		scale = 0.410,
+		scale = 0.280,
 	}
 	model GavrilGrandMarshalTaxiWheelFL
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalTaxiWheel,
-		texture = vehicles/Gavril_WheelF,
+		mesh = vehicles/GavrilGrandMarshalTaxiWheel,
+		texture = vehicles/GavrilWheelD,
 		shader = vehiclewheel,
-		scale = 0.437,
+		scale = 0.351,
 	}
 	model GavrilGrandMarshalTaxiWheelFR
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalTaxiWheel,
-		texture = vehicles/Gavril_WheelF,
+		mesh = vehicles/GavrilGrandMarshalTaxiWheel,
+		texture = vehicles/GavrilWheelD,
 		shader = vehiclewheel,
-		scale = 0.437,
+		scale = 0.351,
 	}
 	model GavrilGrandMarshalTaxiWheelRL
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalTaxiWheel,
-		texture = vehicles/Gavril_WheelF,
+		mesh = vehicles/GavrilGrandMarshalTaxiWheel,
+		texture = vehicles/GavrilWheelD,
 		shader = vehiclewheel,
-		scale = 0.437,
+		scale = 0.351,
 	}
 	model GavrilGrandMarshalTaxiWheelRR
 	{
-		mesh = vehicles/Vehicles_GavrilGrandMarshalTaxiWheel,
-		texture = vehicles/Gavril_WheelF,
+		mesh = vehicles/GavrilGrandMarshalTaxiWheel,
+		texture = vehicles/GavrilWheelD,
 		shader = vehiclewheel,
-		scale = 0.437,
+		scale = 0.351,
 	}
 	vehicle GavrilGrandMarshalTaxi
 	{
@@ -45,46 +45,46 @@ module Base
 		model
 		{
 			file = GavrilGrandMarshalTaxiBase,
-			scale = 1.7800,
-			offset = 0.0000 0.2809 0.0000,
+			scale = 1.7900,
+			offset = 0.0000 -0.0168 0.0391,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalTaxiA_Shell,
+			texture = vehicles/GrandMarshalTaxiA,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalTaxiB_Shell,
+			texture = vehicles/GrandMarshalTaxiB,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalTaxiC_Shell,
+			texture = vehicles/GrandMarshalTaxiC,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalTaxiD_Shell,
+			texture = vehicles/GrandMarshalTaxiD,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalTaxiE_Shell,
+			texture = vehicles/GrandMarshalTaxiE,
 		}
 
 		skin
 		{
-			texture = vehicles/GavrilGrandMarshalTaxiF_Shell,
+			texture = vehicles/GrandMarshalTaxiF,
 		}
 
-		textureMask = vehicles/GavrilTaxiMask,
-		textureLights = vehicles/GavrilTaxiLights,
+		textureMask = vehicles/GavrilMask,
+		textureLights = vehicles/GavrilLights,
 		textureDamage1Overlay = vehicles/GavrilBlood,
 		textureDamage2Overlay = vehicles/GavrilBlood,
-		textureDamage1Shell = vehicles/GavrilDamageLight,
-		textureDamage2Shell = vehicles/GavrilDamageHeavy,
+		textureDamage1Shell = vehicles/GavrilLightDamage,
+		textureDamage2Shell = vehicles/GavrilHeavyDamage,
 		textureRust = vehicles/Blank_Placeholder,
 
 		sound
@@ -96,22 +96,22 @@ module Base
 			ignitionFail = VehicleIgnitionFailCarNormal,
 		}
 
-		extents = 0.9551 0.6742 2.6517,
-		mass = 1100,
-		physicsChassisShape = 0.9551 0.6404 2.6517,
-		centerOfMassOffset = 0.0000 0.3034 -0.0112,
-		shadowExtents = 0.9589 2.7297,
+		extents = 0.9721 0.6369 2.6592,
+		mass = 960,
+		physicsChassisShape = 0.9832 0.6369 2.6592,
+		centerOfMassOffset = 0.0000 0.3128 -0.0112,
+		shadowExtents = 0.9702 2.7410,
 		shadowOffset = 0.0000 -0.0006,
-		engineForce = 4500,
+		engineForce = 4200,
 		maxSpeed = 100f,
-		engineLoudness = 70,
-		engineQuality = 70,
-		brakingForce = 78,
+		engineLoudness = 75,
+		engineQuality = 75,
+		brakingForce = 75,
 		gearRatioCount = 4,
 		gearRatioR = 3.8,
 		gearRatio1 = 3.8,
 		gearRatio2 = 2.4,
-		gearRatio3 = 1.5,
+		gearRatio3 = 1.6,
 		gearRatio4 = 1.2,
 		extentsOffset = 0.5 0.5,
 		stoppingMovementForce = 4.0f,
@@ -131,32 +131,32 @@ module Base
 		wheel FrontLeft
 		{
 			front = true,
-			offset = 0.3876 -0.3090 0.8371,
-			radius = 0.15f,
+			offset = 0.4134 0.0168 0.8101,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
 		wheel FrontRight
 		{
 			front = true,
-			offset = -0.3876 -0.3090 0.8371,
-			radius = 0.15f,
+			offset = -0.4134 0.0168 0.8101,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.3876 -0.3090 -0.6685,
-			radius = 0.15f,
+			offset = 0.4134 0.0112 -0.6927,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.3876 -0.3090 -0.6685,
-			radius = 0.15f,
+			offset = -0.4134 0.0112 -0.6927,
+			radius = 0.17f,
 			width = 0.2f,
 		}
 
@@ -166,13 +166,13 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.1910 -0.0843 0.0281,
+				offset = 0.2011 0.2123 -0.0056,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = 0.6348 -0.4831 0.1404,
+				offset = 0.6480 -0.1732 0.1397,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontLeft,
 			}
@@ -182,13 +182,13 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.1910 -0.0843 0.0281,
+				offset = -0.2011 0.2123 -0.0056,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = -0.6348 -0.4831 0.1404,
+				offset = -0.6480 -0.1732 0.1397,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontRight,
 			}
@@ -198,13 +198,13 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.1910 -0.0843 -0.4382,
+				offset = 0.2011 0.2123 -0.5140,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = 0.6348 -0.4831 -0.3427,
+				offset = 0.6480 -0.1732 -0.3464,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatRearLeft,
 			}
@@ -214,13 +214,13 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.1910 -0.0843 -0.4382,
+				offset = -0.2011 0.2123 -0.5140,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = -0.6404 -0.4831 -0.3427,
+				offset = -0.6480 -0.1732 -0.3464,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatRearRight,
 			}
@@ -228,57 +228,57 @@ module Base
 
 		area Engine
 		{
-			xywh = 0.0000 1.6180 0.9663 0.5843,
+			xywh = 0.0000 1.6089 0.9721 0.5922,
 		}
 
 		area TruckBed
 		{
-			xywh = 0.0000 -1.6180 0.9663 0.5843,
+			xywh = 0.0000 -1.6201 0.9721 0.5922,
 		}
 
 		area SeatFrontLeft
 		{
-			xywh = 0.7022 0.1910 0.4494 0.5056,
+			xywh = 0.7039 0.2123 0.4581 0.5475,
 		}
 
 		area SeatFrontRight
 		{
-			xywh = -0.7022 0.1910 0.4494 0.5056,
+			xywh = -0.7039 0.2123 0.4581 0.5475,
 		}
 
 		area SeatRearLeft
 		{
-			xywh = 0.7022 -0.2697 0.4494 0.5056,
+			xywh = 0.7039 -0.3073 0.4581 0.4916,
 		}
 
 		area SeatRearRight
 		{
-			xywh = -0.7022 -0.2697 0.4494 0.5056,
+			xywh = -0.7039 -0.3073 0.4581 0.4916,
 		}
 
 		area GasTank
 		{
-			xywh = 0.7022 -0.9270 0.4494 0.4494,
+			xywh = 0.7039 -1.0056 0.4581 0.4581,
 		}
 
 		area TireFrontLeft
 		{
-			xywh = 0.7022 0.8764 0.4494 0.4494,
+			xywh = 0.7039 0.8492 0.4581 0.4581,
 		}
 
 		area TireFrontRight
 		{
-			xywh = -0.7022 0.8764 0.4494 0.4494,
+			xywh = -0.7039 0.8492 0.4581 0.4581,
 		}
 
 		area TireRearLeft
 		{
-			xywh = 0.7022 -0.6910 0.4494 0.4494,
+			xywh = 0.7039 -0.6425 0.4581 0.4581,
 		}
 
 		area TireRearRight
 		{
-			xywh = -0.7022 -0.6910 0.4494 0.4494,
+			xywh = -0.7039 -0.6425 0.4581 0.4581,
 		}
 
 		template = Trunk/part/TruckBed,
@@ -290,7 +290,7 @@ module Base
 
 			container
 			{
-				capacity = 58,
+				capacity = 55,
 			}
 		}
 
@@ -387,6 +387,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalTaxiWheelFL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -395,6 +397,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalTaxiWheelFR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -403,6 +407,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalTaxiWheelRL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -411,6 +417,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = GavrilGrandMarshalTaxiWheelRR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -421,14 +429,14 @@ module Base
 
 		attachment trailer
 		{
-			offset = 0.0000 -0.2360 -1.3202,
+			offset = 0.0000 0.0391 -1.3690,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = -1.0000,
 		}
 
 		attachment trailerfront
 		{
-			offset = 0.0000 -0.2640 1.2753,
+			offset = 0.0000 0.0391 1.2753,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = 1.0000,
 		}

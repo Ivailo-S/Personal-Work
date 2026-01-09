@@ -109,6 +109,7 @@ SetArmor("FleetD15_SCEB","PU_Armor_D15_SCEB");
 SetArmor("FossoilD15_SCEB","PU_Armor_D15_SCEB");
 SetArmor("McCoyD15_SCEB","PU_Armor_D15_SCEB");
 SetArmor("PreD15_SCEB","PU_Armor_D15_SCEB");
+SetArmor("FireD15_SCEB","PU_Armor_D15_SCEB");
 SetArmor("PostD15_SCEB","PU_Armor_D15_SCEB");
 SetArmor("PreD25_SCEB","PU_Armor_D25_SCEB");
 SetArmor("FleetD25_SCEB","PU_Armor_D25_SCEB");
@@ -153,8 +154,11 @@ SetArmor("GavrilGrandMarshalLuxe","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalSport","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalInterceptor","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalPolice","PU_Armor_Gavril");
+SetArmor("GavrilGrandMarshalRanger","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalUndercover","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalTaxi","PU_Armor_Gavril");
+SetArmor("GavrilGrandMarshalLimo","PU_Armor_GavrilLimo");
+SetArmor("GavrilGrandMarshalLuxeLimo","PU_Armor_GavrilLimo");
 
 -- Gavril Roamer
 

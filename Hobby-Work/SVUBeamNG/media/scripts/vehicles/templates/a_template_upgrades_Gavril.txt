@@ -4,14 +4,14 @@ module Base
     {
         mesh = vehicles/GavrilArmor|windowfrontlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_FR_Window_Gavril_Light
     {
         mesh = vehicles/GavrilArmor|windowfrontlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -19,14 +19,14 @@ module Base
     {
         mesh = vehicles/GavrilArmor|windowrearlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_RR_Window_Gavril_Light
     {
         mesh = vehicles/GavrilArmor|windowrearlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -34,28 +34,28 @@ module Base
     {
         mesh = vehicles/GavrilArmor|windowlightfront,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_R_Window_Gavril_Light
     {
         mesh = vehicles/GavrilArmor|windowlightrear,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_FL_Window_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|windowfrontheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_FR_Window_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|windowfrontheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -63,14 +63,14 @@ module Base
     {
         mesh = vehicles/GavrilArmor|windowrearheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_RR_Window_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|windowrearheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -78,35 +78,35 @@ module Base
     {
         mesh = vehicles/GavrilArmor|windowheavyfront,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_R_Window_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|windowheavyrear,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Bullbar_Gavril
     {
         mesh = vehicles/GavrilArmor|pushbar_1,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Chains_FL_Gavril
     {
         mesh = vehicles/GavrilArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0035,
+        scale = 0.280,
     }
 
 	model PU_Chains_FR_Gavril
     {
         mesh = vehicles/GavrilArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0035,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -114,14 +114,14 @@ module Base
     {
         mesh = vehicles/GavrilArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0035,
+        scale = 0.280,
     }
 
 	model PU_Chains_RR_Gavril
     {
         mesh = vehicles/GavrilArmor|chaintires,
         texture = Vehicles/puv_parts,
-        scale = 0.0035,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -129,28 +129,28 @@ module Base
     {
         mesh = vehicles/GavrilArmor|hoodlightfront,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Trunk_Gavril_Light
     {
         mesh = vehicles/GavrilArmor|trunklightrear,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Door_FL_Gavril_Light
     {
         mesh = vehicles/GavrilArmor|doorfrontlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Door_FR_Gavril_Light
     {
         mesh = vehicles/GavrilArmor|doorfrontlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -158,14 +158,14 @@ module Base
     {
         mesh = vehicles/GavrilArmor|doorrearlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Door_RR_Gavril_Light
     {
         mesh = vehicles/GavrilArmor|doorrearlightleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -173,28 +173,28 @@ module Base
     {
         mesh = vehicles/GavrilArmor|hoodheavyfront,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Trunk_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|trunkheavyrear,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Door_FL_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|doorfrontheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Door_FR_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|doorfrontheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -202,14 +202,14 @@ module Base
     {
         mesh = vehicles/GavrilArmor|doorrearheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	model PU_Door_RR_Gavril_Heavy
     {
         mesh = vehicles/GavrilArmor|doorrearheavyleft,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
         invertX = TRUE,
     }
 
@@ -217,7 +217,7 @@ module Base
     {
         mesh = vehicles/GavrilArmor|roofrack,
         texture = Vehicles/puv_parts,
-        scale = 0.004,
+        scale = 0.280,
     }
 
 	template vehicle PU_Armor_Gavril
