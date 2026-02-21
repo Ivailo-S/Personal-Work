@@ -1,0 +1,3 @@
+Tooltip_EN = {
+    Tooltip_item_ATABeamNGTuningMag = "After reading this issue, you will gain the tuning knowledge to learn how<br>to create armored protection for the vast array of BeamNG vehicles",
+}

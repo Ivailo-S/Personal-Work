@@ -156,7 +156,7 @@ module Base
 		textureDamage2Overlay = vehicles/IbishuBlood,
 		textureDamage1Shell = vehicles/IbishuLxiLightDamage,
 		textureDamage2Shell = vehicles/IbishuLxiHeavyDamage,
-		textureRust = vehicles/IbishuGtzRust,
+		textureRust = vehicles/Blank_Placeholder,
 
 		sound
 		{
@@ -173,7 +173,7 @@ module Base
 		centerOfMassOffset = 0.0000 0.2211 -0.0526,
 		shadowExtents = 0.8018 1.9477,
 		shadowOffset = 0.0000 -0.0526,
-		engineForce = 4800,
+		engineForce = 4600,
 		engineQuality = 75,
 		engineLoudness = 60,
 		maxSpeed = 100f,

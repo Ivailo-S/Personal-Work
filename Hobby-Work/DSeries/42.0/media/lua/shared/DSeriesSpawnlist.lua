@@ -18,6 +18,7 @@ VehicleZoneDistribution.parkingstall.vehicles["Base.PreD15_4WDSCSB"] = {index = 
 VehicleZoneDistribution.parkingstall.vehicles["Base.PostD15_4WDSCSB"] = {index = -1, spawnChance = 0.5};
 VehicleZoneDistribution.parkingstall.vehicles["Base.PreD15_SCEB"] = {index = -1, spawnChance = 1.5};
 VehicleZoneDistribution.parkingstall.vehicles["Base.PostD15_SCEB"] = {index = -1, spawnChance = 0.5};
+VehicleZoneDistribution.parkingstall.vehicles["Base.FireD15_SCEB"] = {index = -1, spawnChance = 0.25};
 VehicleZoneDistribution.parkingstall.vehicles["Base.PreD15_ECSB"] = {index = -1, spawnChance = 2.5};
 VehicleZoneDistribution.parkingstall.vehicles["Base.PostD15_ECSB"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.parkingstall.vehicles["Base.PostD15_4WDECSB"] = {index = -1, spawnChance = 0.75};
@@ -293,6 +294,7 @@ VehicleZoneDistribution.trafficjamw.vehicles["Base.PreD15_4WDSCSB"] = {index = -
 VehicleZoneDistribution.trafficjamw.vehicles["Base.PostD15_4WDSCSB"] = {index = -1, spawnChance = 0.25};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.PreD15_SCEB"] = {index = -1, spawnChance = 0.5};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.PostD15_SCEB"] = {index = -1, spawnChance = 0.25};
+VehicleZoneDistribution.trafficjamw.vehicles["Base.FireD15_SCEB"] = {index = -1, spawnChance = 0.5};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.PreD15_ECSB"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.PostD15_ECSB"] = {index = -1, spawnChance = 0.25};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.PostD15_4WDECSB"] = {index = -1, spawnChance = 0.25};
@@ -331,6 +333,9 @@ VehicleZoneDistribution.trafficjamw.vehicles["Base.McCoyBoxTruckD45"] = {index =
 
 VehicleZoneDistribution.ranger.vehicles["Base.RangerCharro"] = {index = -1, spawnChance = 70};
 VehicleZoneDistribution.ranger.specialCar = true;
+
+VehicleZoneDistribution.fire.vehicles["Base.FireD15_SCEB"] = {index = -1, spawnChance = 70};
+VehicleZoneDistribution.fire.specialCar = true;
 
 VehicleZoneDistribution.farm.vehicles["Base.FarmhandD15"] = {index = -1, spawnChance = 15};
 VehicleZoneDistribution.farm.vehicles["Base.FleetD15_SCEB"] = {index = -1, spawnChance = 2.5};
@@ -391,6 +396,10 @@ VehicleZoneDistribution.mccoy.vehicles["Base.McCoyBoxTruckD45"] = {index = -1, s
 
 VehicleZoneDistribution.fossoil.vehicles["Base.FossoilD15_SCEB"] = {index = -1, spawnChance = 50};
 VehicleZoneDistribution.fossoil.vehicles["Base.FossoilD15_ECSB"] = {index = -1, spawnChance = 50};
+
+VehicleZoneDistribution.airportservice.vehicles["Base.AirportServiceD15_SCEB"] = {index = -1, spawnChance = 30};
+VehicleZoneDistribution.airportservice.vehicles["Base.AirportSecurityD15_SCEB"] = {index = -1, spawnChance = 20};
+VehicleZoneDistribution.airportservice.vehicles["Base.AirportCateringBoxTruckD45"] = {index = -1, spawnChance = 20};
 
 -- And just for funzies, mix the D-Series in with the random story event vehicles where applicable
 -- Note: idk if these work, can't really 'test' for them so I'm gonna pretend its like a placebo effect or something

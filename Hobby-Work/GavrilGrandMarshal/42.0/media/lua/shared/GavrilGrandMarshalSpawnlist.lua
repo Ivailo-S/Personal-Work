@@ -3,14 +3,16 @@ if VehicleZoneDistribution then
 VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshal"] = {index = -1, spawnChance = 10};
 VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalLuxe"] = {index = -1, spawnChance = 5};
 VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalSport"] = {index = -1, spawnChance = 2};
-VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalTaxi"] = {index = -1, spawnChance = 4};
+VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalTaxi"] = {index = -1, spawnChance = 2.5};
+VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalLVTaxi"] = {index = -1, spawnChance = 2.5};
 VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalUndercover"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalRanger"] = {index = -1, spawnChance = 0.5};
 VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalLimo"] = {index = -1, spawnChance = 0.1};
 VehicleZoneDistribution.parkingstall.vehicles["Base.GavrilGrandMarshalLuxeLimo"] = {index = -1, spawnChance = 0.1};
 
 VehicleZoneDistribution.trailerpark.vehicles["Base.GavrilGrandMarshal"] = {index = -1, spawnChance = 5};
-VehicleZoneDistribution.trailerpark.vehicles["Base.GavrilGrandMarshalTaxi"] = {index = -1, spawnChance = 2};
+VehicleZoneDistribution.trailerpark.vehicles["Base.GavrilGrandMarshalTaxi"] = {index = -1, spawnChance = 1.5};
+VehicleZoneDistribution.trailerpark.vehicles["Base.GavrilGrandMarshalLVTaxi"] = {index = -1, spawnChance = 1.5};
 VehicleZoneDistribution.trailerpark.vehicles["Base.GavrilGrandMarshalLuxe"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.trailerpark.vehicles["Base.GavrilGrandMarshalRanger"] = {index = -1, spawnChance = 0.25};
 VehicleZoneDistribution.trailerpark.vehicles["Base.GavrilGrandMarshalSport"] = {index = -1, spawnChance = 1};
@@ -42,7 +44,8 @@ VehicleZoneDistribution.junkyard.vehicles["Base.GavrilGrandMarshalSport"] = {ind
 VehicleZoneDistribution.sport.vehicles["Base.GavrilGrandMarshalSport"] = {index = -1, spawnChance = 15};
 
 VehicleZoneDistribution.trafficjamw.vehicles["Base.GavrilGrandMarshal"] = {index = -1, spawnChance = 8};
-VehicleZoneDistribution.trafficjamw.vehicles["Base.GavrilGrandMarshalTaxi"] = {index = -1, spawnChance = 4};
+VehicleZoneDistribution.trafficjamw.vehicles["Base.GavrilGrandMarshalTaxi"] = {index = -1, spawnChance = 3};
+VehicleZoneDistribution.trafficjamw.vehicles["Base.GavrilGrandMarshalLVTaxi"] = {index = -1, spawnChance = 3};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.GavrilGrandMarshalLuxe"] = {index = -1, spawnChance = 6};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.GavrilGrandMarshalSport"] = {index = -1, spawnChance = 2};
 VehicleZoneDistribution.trafficjamw.vehicles["Base.GavrilGrandMarshalUndercover"] = {index = -1, spawnChance = 2};
@@ -61,5 +64,10 @@ VehicleZoneDistribution.ranger.vehicles["Base.GavrilGrandMarshalRanger"] = {inde
 -- For all them rich people that tried to flee the area with their influence
 VehicleZoneDistribution.airportservice.vehicles["Base.GavrilGrandMarshalLimo"] = {index = -1, spawnChance = 5};
 VehicleZoneDistribution.airportservice.vehicles["Base.GavrilGrandMarshalLuxeLimo"] = {index = -1, spawnChance = 7.5};
+
+-- And airport taxis!
+VehicleZoneDistribution.airportshuttle.vehicles["Base.GavrilGrandMarshalTaxi"] = {index = -1, spawnChance = 5};
+VehicleZoneDistribution.airportshuttle.vehicles["Base.GavrilGrandMarshalLVTaxi"] = {index = -1, spawnChance = 5};
+
 
 end

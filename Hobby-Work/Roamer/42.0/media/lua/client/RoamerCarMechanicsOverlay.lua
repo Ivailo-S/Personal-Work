@@ -1,4 +1,5 @@
 ISCarMechanicsOverlay.CarList["Base.RoamerI6"] = {imgPrefix = "suv_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.RoamerAirportSecurity"] = {imgPrefix = "suv_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.RoamerFossoil"] = {imgPrefix = "suv_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.RoamerMcCoy"] = {imgPrefix = "suv_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.RoamerI64WD"] = {imgPrefix = "suv_", x=10,y=0};

@@ -17,6 +17,7 @@ ISCarMechanicsOverlay.CarList["Base.PostD15_SCSB"] = {imgPrefix = "truck_", x=10
 ISCarMechanicsOverlay.CarList["Base.PreD15_4WDSCSB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostD15_4WDSCSB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PreD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.FireD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PreD15_ECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostD15_ECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};

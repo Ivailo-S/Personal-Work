@@ -1,0 +1,20 @@
+module Autotsar
+{
+    imports
+    {
+        Base
+    }
+    
+    item ATABeamNGTuningMag /* Spawn */ 
+    {
+        Weight    =    0.1,
+        ItemType = base:literature,
+        DisplayName    =    Autotsar Tuning - BeamNG Models,
+        Icon    =    ATATuningMagUniverseIcon,
+        LearnedRecipes  =   ATABeamNGRecipes,
+        ReplaceOnUse    =   ATABeamNGTuningMag,
+        Tooltip = Tooltip_item_ATABeamNGTuningMag,
+        StaticModel = Autotsar.ATATuningMagUniverse_Reading,
+        WorldStaticModel = Autotsar.ATATuningMagUniverse_Ground,
+    }
+}

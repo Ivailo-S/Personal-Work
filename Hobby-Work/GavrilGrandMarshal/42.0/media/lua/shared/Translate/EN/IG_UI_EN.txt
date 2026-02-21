@@ -2,6 +2,7 @@ IG_UI_EN = {
 	IGUI_VehicleNameGavrilGrandMarshal = "Gavril Grand Marshal V8 Base"
 	IGUI_VehicleNameGavrilGrandMarshalLuxe = "Gavril Grand Marshal V8 Luxe"
 	IGUI_VehicleNameGavrilGrandMarshalTaxi = "Gavril Grand Marshal V8 Fleet"
+	IGUI_VehicleNameGavrilGrandMarshalLVTaxi = "Gavril Grand Marshal V8 Fleet"
 	IGUI_VehicleNameGavrilGrandMarshalSport = "Gavril Grand Marshal V8 Sport"
 	IGUI_VehicleNameGavrilGrandMarshalUndercover = "Gavril Grand Marshal Undercover Package"
 	IGUI_VehicleNameGavrilGrandMarshalPolice = "Gavril Grand Marshal Police Package"

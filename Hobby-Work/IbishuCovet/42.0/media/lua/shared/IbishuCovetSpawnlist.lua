@@ -33,6 +33,12 @@ VehicleZoneDistribution.good.vehicles["Base.IbishuCovetZxiSpecial"] = {index = -
 VehicleZoneDistribution.good.vehicles["Base.IbishuCovetGtz"] = {index = -1, spawnChance = 5};
 VehicleZoneDistribution.good.vehicles["Base.IbishuCovetTurbo"] = {index = -1, spawnChance = 1};
 
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.IbishuCovetZxi"] = {index = -1, spawnChance = 1};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.IbishuCovetZxiSpecial"] = {index = -1, spawnChance = 1};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.IbishuCovetGtz"] = {index = -1, spawnChance = 4};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.IbishuCovetTurbo"] = {index = -1, spawnChance = 1};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.IbishuCovetRally"] = {index = -1, spawnChance = 1};
+
 VehicleZoneDistribution.sport.vehicles["Base.IbishuCovetZxi"] = {index = -1, spawnChance = 5};
 VehicleZoneDistribution.sport.vehicles["Base.IbishuCovetZxiSpecial"] = {index = -1, spawnChance = 5};
 VehicleZoneDistribution.sport.vehicles["Base.IbishuCovetGtz"] = {index = -1, spawnChance = 5};

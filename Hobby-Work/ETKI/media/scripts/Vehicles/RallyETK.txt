@@ -40,12 +40,12 @@ module Base
 		mechanicType = 3,
 		engineRepairLevel = 6,
 		playerDamageProtection = 1.5,
-		offRoadEfficiency = 3.0,
+		offRoadEfficiency = 1.2,
 
 		model
 		{
 			file = RallyETKBase,
-			scale = 1.7500,
+			scale = 1.7600,
 			offset = 0.0000 0.3086 0.0000,
 		}
 

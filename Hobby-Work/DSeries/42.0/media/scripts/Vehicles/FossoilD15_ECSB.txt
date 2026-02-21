@@ -37,8 +37,7 @@ module Base
 		engineRepairLevel = 5,
 		playerDamageProtection = 1.0,
 		offRoadEfficiency = 1.0,
-		specialKeyRing = KeyRing_Bass;KeyRing_EagleFlag;KeyRing_EightBall;KeyRing_Panther;KeyRing_PineTree;KeyRing_RabbitFoot;KeyRing_Sexy,
-		specialLootChance = 40,
+		zombieType = Fossoil,
 
 		model
 		{
@@ -493,7 +492,7 @@ module Base
 
 		template = Brake,
 		template = Suspension,
-		template = Radio,
+		template = Radio_HAM,
 		template = Headlight,
 
 		part Brake*

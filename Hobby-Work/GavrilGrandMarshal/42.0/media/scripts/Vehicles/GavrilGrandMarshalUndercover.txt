@@ -130,7 +130,7 @@ module Base
         maxSuspensionTravelCm = 10,
         suspensionRestLength = 0.20f,
         wheelFriction = 1.4f,
-        frontEndHealth = 225,
+        frontEndHealth = 250,
         rearEndHealth = 150,
         seats = 4,
 

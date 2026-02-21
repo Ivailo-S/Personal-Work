@@ -29,6 +29,8 @@ ISCarMechanicsOverlay.CarList["Base.PreLeGranTaxi"] = {imgPrefix = "4door_", x=1
 ISCarMechanicsOverlay.CarList["Base.PreLeGranTaxiWagon"] = {imgPrefix = "stationwagon_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostLeGranTaxi"] = {imgPrefix = "4door_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostLeGranTaxiWagon"] = {imgPrefix = "stationwagon_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.AltLeGranTaxi"] = {imgPrefix = "4door_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.AltLeGranTaxiWagon"] = {imgPrefix = "stationwagon_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.LeGranPolice"] = {imgPrefix = "4door_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.LeGranUndercover"] = {imgPrefix = "4door_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.LeGranFire"] = {imgPrefix = "stationwagon_", x=10,y=0};

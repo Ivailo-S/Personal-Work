@@ -10,6 +10,8 @@ ISCarMechanicsOverlay.CarList["Base.FleetD15_SCEB"] = {imgPrefix = "truck_", x=1
 ISCarMechanicsOverlay.CarList["Base.FleetD15_ECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.FossoilD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.FossoilD15_ECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.AirportServiceD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.AirportSecurityD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.McCoyD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.McCoyD15_ECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PreD15_SCSB"] = {imgPrefix = "truck_", x=10,y=0};
@@ -18,6 +20,7 @@ ISCarMechanicsOverlay.CarList["Base.PreD15_4WDSCSB"] = {imgPrefix = "truck_", x=
 ISCarMechanicsOverlay.CarList["Base.PostD15_4WDSCSB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PreD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.FireD15_SCEB"] = {imgPrefix = "truck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PreD15_ECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostD15_ECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostD15_4WDECSB"] = {imgPrefix = "DSeries_EC_", x=10,y=0};
@@ -49,6 +52,7 @@ ISCarMechanicsOverlay.CarList["Base.PreDuallyD35_ECEB"] = {imgPrefix = "DSeries_
 ISCarMechanicsOverlay.CarList["Base.RancherDuallyD35_ECEB"] = {imgPrefix = "DSeries_DuallyEC_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.PostDuallyD35_ECEB"] = {imgPrefix = "DSeries_DuallyEC_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.FleetBoxTruckD45"] = {imgPrefix = "DSeries_BoxTruck_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.AirportCateringBoxTruckD45"] = {imgPrefix = "DSeries_BoxTruck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.GigaMartBoxTruckD45"] = {imgPrefix = "DSeries_BoxTruck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.GenFacBoxTruckD45"] = {imgPrefix = "DSeries_BoxTruck_", x=10,y=0};
 ISCarMechanicsOverlay.CarList["Base.KnoxDistilleryBoxTruckD45"] = {imgPrefix = "DSeries_BoxTruck_", x=10,y=0};

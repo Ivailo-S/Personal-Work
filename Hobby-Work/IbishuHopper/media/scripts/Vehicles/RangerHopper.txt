@@ -52,8 +52,8 @@ module Base
 		model
 		{
 			file = RangerHopperBase,
-			scale = 1.5600,
-			offset = 0.0000 0.4140 0.0828,
+			scale = 1.5400,
+			offset = 0.0000 0.4167 0.0833,
 		}
 
 		skin
@@ -110,10 +110,10 @@ module Base
 			ignitionFail = VehicleIgnitionFailCarNormal,
 		}
 
-		extents = 1.0064 0.8408 2.2166,
+		extents = 1.0128 0.8462 2.2179,
 		mass = 850,
-		physicsChassisShape = 1.0064 0.8408 2.2166,
-		centerOfMassOffset = 0.0000 0.3503 0.0000,
+		physicsChassisShape = 1.0128 0.8462 2.2179,
+		centerOfMassOffset = 0.0000 0.3526 0.0000,
 		shadowExtents = 1.0689 2.3126,
 		shadowOffset = 0.0000 0.0000,
 		engineForce = 3800,
@@ -145,7 +145,7 @@ module Base
 		wheel FrontLeft
 		{
 			front = true,
-			offset = 0.4459 -0.4968 0.6815,
+			offset = 0.4487 -0.5000 0.6795,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -153,7 +153,7 @@ module Base
 		wheel FrontRight
 		{
 			front = true,
-			offset = -0.4459 -0.4968 0.6815,
+			offset = -0.4487 -0.5000 0.6795,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -161,7 +161,7 @@ module Base
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.4459 -0.4968 -0.7834,
+			offset = 0.4487 -0.5000 -0.7821,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -169,7 +169,7 @@ module Base
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.4459 -0.4968 -0.7834,
+			offset = -0.4487 -0.5000 -0.7821,
 			radius = 0.15f,
 			width = 0.2f,
 		}
@@ -180,13 +180,13 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.1911 -0.1274 -0.2866,
+				offset = 0.1923 -0.1282 -0.2885,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = 0.6051 -0.6051 -0.2548,
+				offset = 0.6026 -0.6026 -0.2564,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontLeft,
 			}
@@ -196,13 +196,13 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.1911 -0.1274 -0.2866,
+				offset = -0.1923 -0.1282 -0.2885,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
 			position outside
 			{
-				offset = -0.6051 -0.6051 -0.2548,
+				offset = -0.6026 -0.6026 -0.2564,
 				rotate = 0.0000 0.0000 0.0000,
 				area = SeatFrontRight,
 			}
@@ -212,7 +212,7 @@ module Base
 		{
 			position inside
 			{
-				offset = 0.1911 -0.1274 -0.7643,
+				offset = 0.1923 -0.1282 -0.7628,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
@@ -225,7 +225,7 @@ module Base
 		{
 			position inside
 			{
-				offset = -0.1911 -0.1274 -0.7643,
+				offset = -0.1923 -0.1282 -0.7628,
 				rotate = 0.0000 0.0000 0.0000,
 			}
 
@@ -236,47 +236,47 @@ module Base
 
 		area SeatFrontLeft
 		{
-			xywh = 0.6242 -0.0892 0.5223 0.6369,
+			xywh = 0.6218 -0.0897 0.5256 0.6410,
 		}
 
 		area SeatFrontRight
 		{
-			xywh = -0.6242 -0.0892 0.5223 0.6369,
+			xywh = -0.6218 -0.0897 0.5256 0.6410,
 		}
 
 		area Engine
 		{
-			xywh = 0.0000 1.2420 0.8280 0.6369,
+			xywh = 0.0000 1.2436 0.8333 0.6410,
 		}
 
 		area TruckBed
 		{
-			xywh = 0.0000 -1.2420 0.8280 0.6369,
+			xywh = 0.0000 -1.2436 0.8333 0.6410,
 		}
 
 		area GasTank
 		{
-			xywh = -0.6242 -0.9745 0.5223 0.5223,
+			xywh = -0.6218 -0.9744 0.5256 0.5256,
 		}
 
 		area TireFrontLeft
 		{
-			xywh = 0.6242 0.7325 0.5223 0.5223,
+			xywh = 0.6218 0.7308 0.5256 0.5256,
 		}
 
 		area TireFrontRight
 		{
-			xywh = -0.6242 0.7325 0.5223 0.5223,
+			xywh = -0.6218 0.7308 0.5256 0.5256,
 		}
 
 		area TireRearLeft
 		{
-			xywh = 0.6242 -0.6879 0.5223 0.5223,
+			xywh = 0.6218 -0.6859 0.5256 0.5256,
 		}
 
 		area TireRearRight
 		{
-			xywh = -0.6242 -0.6879 0.5223 0.5223,
+			xywh = -0.6218 -0.6859 0.5256 0.5256,
 		}
 
 		template = TrunkDoor,

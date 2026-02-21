@@ -95,6 +95,7 @@ module Base
 
 		sound
 		{
+            		alarmLoop = VehicleAlarmA VehicleAlarmB VehicleAlarmC VehicleAlarmD VehicleAlarmE,
 			engine = VehicleEngineSmallCar,
 			engineStart = VehicleEngineSmallCar,
 			engineTurnOff = VehicleEngineSmallCar,
@@ -227,7 +228,7 @@ module Base
 
 		area GasTank
 		{
-			xywh = 0.0000 0.9736 0.4737 0.5263,
+			xywh = 0.0000 0.9737 0.4737 0.5263,
 		}
 
 		area TireFrontLeft
@@ -496,6 +497,77 @@ module Base
 		template = Suspension,
 		template = Radio,
 		template = Headlight,
+		useChassisPhysicsCollision = false,
+
+		physics box
+		{
+			offset = 0.0000 0.0525 -0.0579,
+			extents = 0.8105 0.2316 1.8421,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.0319 0.8947,
+			extents = 0.6842 0.0947 0.0632,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.0316 -0.9946,
+			extents = 0.6947 0.0947 0.0526,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.1684 0.7895,
+			extents = 0.8105 0.0526 0.1368,
+			rotate = 20.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.1897 0.4684,
+			extents = 0.8105 0.1158 0.5263,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.2947 0.1833,
+			extents = 0.8105 0.1895 0.4316,
+			rotate = 38.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3368 -0.3275,
+			extents = 0.8105 0.3368 0.7895,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.2421 -0.8474,
+			extents = 0.8105 0.2632 0.1579,
+			rotate = 30.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3947 -0.7368,
+			extents = 0.8105 0.1579 0.1684,
+			rotate = -45.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.0947 -0.6316,
+			extents = 0.8842 0.3158 0.5263,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 
 		attachment trailer
 		{
