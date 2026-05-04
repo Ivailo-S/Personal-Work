@@ -41,7 +41,7 @@ module Base
 		model
 		{
 			file = PostETK2400tixBase,
-			scale = 1.7500,
+			scale = 1.7600,
 			offset = 0.0000 0.3086 0.0000,
 		}
 
@@ -155,6 +155,7 @@ module Base
 
 		sound
 		{
+            		alarmLoop = VehicleAlarmA VehicleAlarmB VehicleAlarmC VehicleAlarmD VehicleAlarmE,
 			engine = VehicleEngineSportsCar,
 			engineStart = VehicleEngineSportsCar,
 			engineTurnOff = VehicleEngineSportsCar,
@@ -402,6 +403,7 @@ module Base
 		template = Engine,
 		template = Muffler,
 		template = EngineDoor,
+		useChassisPhysicsCollision = false,
 
 		part Heater
 		{
@@ -454,6 +456,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PostETK2400tiFL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -462,6 +466,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PostETK2400tiFR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -470,6 +476,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PostETK2400tiRL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -478,6 +486,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PostETK2400tiRR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 

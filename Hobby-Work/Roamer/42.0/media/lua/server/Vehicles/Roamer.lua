@@ -1,6 +1,7 @@
 local distributionTable = VehicleDistributions[1]
 
 distributionTable["RoamerI6"] = distributionTable["CarNormal"]
+distributionTable["RoamerAirportSecurity"] = distributionTable["PickUpTruckLightsAirport"]
 distributionTable["RoamerFossoil"] = distributionTable["PickUpVanLights1"]
 distributionTable["RoamerMcCoy"] = distributionTable["PickUpVanMccoy"]
 distributionTable["RoamerI64WD"] = distributionTable["CarNormal"]

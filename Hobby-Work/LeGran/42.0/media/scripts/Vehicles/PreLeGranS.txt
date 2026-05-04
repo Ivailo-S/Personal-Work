@@ -155,6 +155,7 @@ module Base
 
 		sound
 		{
+            		alarmLoop = VehicleAlarmA VehicleAlarmB VehicleAlarmC VehicleAlarmD VehicleAlarmE,
 			engine = VehicleEngineCarNormal,
 			engineStart = VehicleEngineCarNormal,
 			engineTurnOff = VehicleEngineCarNormal,
@@ -162,10 +163,10 @@ module Base
 			ignitionFail = VehicleIgnitionFailCarNormal,
 		}
 
-		extents = 0.8634 0.6339 2.4372,
+		extents = 0.8634 0.6011 2.4372,
 		mass = 760,
-		physicsChassisShape = 0.8634 0.6339 2.4372,
-		centerOfMassOffset = 0.0000 0.2186 -0.0109,
+		physicsChassisShape = 0.8634 0.6011 2.4372,
+		centerOfMassOffset = 0.0000 0.2404 -0.0109,
 		shadowExtents = 0.8680 2.5173,
 		shadowOffset = 0.0000 -0.0006,
 		engineForce = 3300,
@@ -453,6 +454,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreLeGranSFL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -461,6 +464,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreLeGranSFR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -469,6 +474,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreLeGranSRL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -477,6 +484,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreLeGranSRR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -484,6 +493,57 @@ module Base
 		template = Suspension,
 		template = Radio,
 		template = Headlight,
+
+     		useChassisPhysicsCollision = false,
+
+		physics box
+		{
+			offset = 0.0000 0.0273 0.0000,
+			extents = 0.8743 0.1202 2.4809,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.1476 -0.0055,
+			extents = 0.8743 0.1202 2.3497,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.2272 0.7978,
+			extents = 0.8743 0.0765 0.7322,
+			rotate = 6.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.2484 -0.9399,
+			extents = 0.8743 0.0765 0.4918,
+			rotate = -2.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3716 -0.2457,
+			extents = 0.8743 0.3279 0.7541,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3101 0.2404,
+			extents = 0.8743 0.2514 0.4372,
+			rotate = 35.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3607 -0.6465,
+			extents = 0.8743 0.3388 0.1202,
+			rotate = 30.0000 0.0000 0.0000,
+		}
 
 		attachment trailer
 		{
@@ -497,6 +557,12 @@ module Base
 			offset = 0.0000 -0.0973 1.2432,
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = 1.0000,
+		}
+
+		attachment flipNode
+		{
+			offset = 0.0000 -0.1093 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
 }

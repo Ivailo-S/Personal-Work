@@ -19,6 +19,7 @@ IG_UI_EN = {
 	IGUI_VehicleNamePostD15_4WDSCSB = "Gavril D15 V8 4WD"
 	IGUI_VehicleNamePreD15_SCEB = "Gavril D15 V8 4WD"
 	IGUI_VehicleNamePostD15_SCEB = "Gavril D15 V8 4WD"
+	IGUI_VehicleNameFireD15_SCEB = "Gavril D15 V8 4WD"
 	IGUI_VehicleNamePreD15_ECSB = "Gavril D15 V8"
 	IGUI_VehicleNamePostD15_ECSB = "Gavril D15 V8"
 	IGUI_VehicleNamePostD15_4WDECSB = "Gavril D15 V8 4WD"

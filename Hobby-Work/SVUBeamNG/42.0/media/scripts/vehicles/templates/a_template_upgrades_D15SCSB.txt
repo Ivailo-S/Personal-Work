@@ -1,0 +1,327 @@
+module Base
+{
+	model PU_FL_Window_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_FR_Window_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_R_Window_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowlightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_FL_Window_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_FR_Window_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_R_Window_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|windowheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Bullbar_D15_SCSB
+    {
+        mesh = vehicles/DSeriesSCSBArmor|pushbar_1,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Chains_FL_D15_SCSB
+    {
+        mesh = vehicles/DSeriesSCSBArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+	model PU_Chains_FR_D15_SCSB
+    {
+        mesh = vehicles/DSeriesSCSBArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+
+	model PU_Chains_RL_D15_SCSB
+    {
+        mesh = vehicles/DSeriesSCSBArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+	model PU_Chains_RR_D15_SCSB
+    {
+        mesh = vehicles/DSeriesSCSBArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|hoodlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Trunk_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|trunklightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FL_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FR_D15_SCSB_Light
+    {
+        mesh = vehicles/DSeriesSCSBArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Trunk_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|trunkheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FL_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FR_D15_SCSB_Heavy
+    {
+        mesh = vehicles/DSeriesSCSBArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	template vehicle PU_Armor_D15_SCSB
+	{
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontLeft,
+		part ATA2ProtectionWindowFrontLeft
+		{
+			model Light
+			{
+				file = PU_FL_Window_D15_SCSB_Light,
+			}
+			model Heavy
+			{
+				file = PU_FL_Window_D15_SCSB_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontRight,
+		part ATA2ProtectionWindowFrontRight
+		{
+			model Light
+			{
+				file = PU_FR_Window_D15_SCSB_Light,
+			}
+			model Heavy
+			{
+				file = PU_FR_Window_D15_SCSB_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindshield,
+        part ATA2ProtectionWindshield
+        {
+            model Light
+            {
+                file = PU_F_Window_D15_SCSB_Light,
+            }
+            model Heavy
+            {
+                file = PU_F_Window_D15_SCSB_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWindshieldRear,
+        part ATA2ProtectionWindshieldRear
+        {
+            model Light
+            {
+                file = PU_R_Window_D15_SCSB_Light,
+            }
+            model Heavy
+            {
+                file = PU_R_Window_D15_SCSB_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionTrunk,
+        part ATA2ProtectionTrunk
+        {
+            model Light
+            {
+                file = PU_Trunk_D15_SCSB_Light,
+            }
+            model Heavy
+            {
+                file = PU_Trunk_D15_SCSB_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontLeft,
+        part ATA2ProtectionDoorFrontLeft
+        {
+            model Light
+            {
+                file = PU_Door_FL_D15_SCSB_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FL_D15_SCSB_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontRight,
+        part ATA2ProtectionDoorFrontRight
+        {
+            model Light
+            {
+                file = PU_Door_FR_D15_SCSB_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FR_D15_SCSB_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionHood,
+        part ATA2ProtectionHood
+        {
+            model Light
+            {
+                file = PU_Hood_D15_SCSB_Light,
+            }
+            model Heavy
+            {
+                file = PU_Hood_D15_SCSB_Heavy,
+            }
+        }
+
+        template = ATA2Bullbars/part/ATA2Bullbar,
+        part ATA2Bullbar
+        {
+            model Large
+            {
+                file = PU_Bullbar_D15_SCSB,
+            }
+        }
+
+        part Tire*
+        {
+            setAllModelsVisible = false,
+            table install
+            {
+                complete = ATATuning2.InstallComplete.TireNotAllModelsVisible,
+            }
+            
+            table uninstall
+            {
+                complete = ATATuning2.UninstallComplete.TireNotAllModelsVisible,
+            }
+            
+            lua
+            {
+                create = ATATuning2.Create.TireNotAllModelsVisible,
+                init = ATATuning2.Init.TireNotAllModelsVisible,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = Vehicles.Update.Tire,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWheels,
+        part TireFrontLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FL_D15_SCSB,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RL_D15_SCSB,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FR_D15_SCSB,
+            }
+        }
+
+        part TireRearRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RR_D15_SCSB,
+            }
+        }
+
+	}
+}

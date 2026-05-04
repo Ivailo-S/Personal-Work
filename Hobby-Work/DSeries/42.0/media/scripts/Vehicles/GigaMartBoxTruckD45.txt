@@ -37,14 +37,13 @@ module Base
 		engineRepairLevel = 5,
 		playerDamageProtection = 1.0,
 		offRoadEfficiency = 0.9,
-		specialKeyRing = KeyRing_Bass;KeyRing_EagleFlag;KeyRing_EightBall;KeyRing_Panther;KeyRing_PineTree;KeyRing_RabbitFoot;KeyRing_Sexy,
-		specialLootChance = 40,
+		zombieType = Trucker,
 
 		model
 		{
 			file = GigaMartBoxTruckD45Base,
 			scale = 1.7400,
-			offset = 0.0000 0.5057 0.7126,
+			offset = 0.0000 0.3448 0.2874,
 		}
 
 		skin
@@ -71,12 +70,12 @@ module Base
 			backSignal = VehicleBackUpBeeper,
 		}
 
-		extents = 1.0230 1.1839 3.6782,
-		mass = 1100,
-		physicsChassisShape = 1.0230 1.1839 3.6782,
-		centerOfMassOffset = 0.0000 0.8046 0.0000,
+		extents = 1.0230 1.1494 3.6782,
+		mass = 1300,
+		physicsChassisShape = 1.0230 1.1494 3.6782,
+		centerOfMassOffset = 0.0000 0.6379 -0.4483,
 		shadowExtents = 1.0345 3.9078,
-		shadowOffset = 0.0000 -0.0001,
+		shadowOffset = 0.0000 -0.4366,
 		engineForce = 5000,
 		maxSpeed = 80f,
 		engineLoudness = 120,
@@ -91,18 +90,19 @@ module Base
 		gearRatio5 = 1.0,
 		extentsOffset = 0.5 0.5,
 		stoppingMovementForce = 2.0f,
-		rollInfluence = 1.0f,
+		rollInfluence = 0.3f,
 		steeringIncrement = 0.03,
 		steeringClamp = 0.3,
-		suspensionStiffness = 50,
+		suspensionStiffness = 40,
 		suspensionCompression = 3.83,
-		suspensionDamping = 2.88,
+		suspensionDamping = 4.88,
 		maxSuspensionTravelCm = 10,
 		suspensionRestLength = 0.2,
 		wheelFriction = 1.2f,
 		frontEndHealth = 175,
 		rearEndHealth = 300,
 		seats = 2,
+		isSmallVehicle = false,
 
 		wheel FrontLeft
 		{
@@ -123,7 +123,7 @@ module Base
 		wheel RearLeft
 		{
 			front = false,
-			offset = 0.4655 -0.4253 -1.4253,
+			offset = 0.4655 -0.4197 -1.4253,
 			radius = 0.2f,
 			width = 0.4f,
 		}
@@ -131,7 +131,7 @@ module Base
 		wheel RearRight
 		{
 			front = false,
-			offset = -0.4655 -0.4253 -1.4253,
+			offset = -0.4655 -0.4197 -1.4253,
 			radius = 0.2f,
 			width = 0.4f,
 		}
@@ -172,47 +172,47 @@ module Base
 
 		area Engine
 		{
-			xywh = 0.0000 2.1954 1.0000 0.7126,
+			xywh = 0.0000 1.6379 1.0000 0.7126,
 		}
 
 		area TruckBed
 		{
-			xywh = 0.0000 -2.1552 1.2069 0.7126,
+			xywh = 0.0000 -2.5287 1.2069 0.7126,
 		}
 
 		area SeatFrontLeft
 		{
-			xywh = 0.7816 0.8506 0.5402 0.6897,
+			xywh = 0.7816 0.4023 0.5402 0.6897,
 		}
 
 		area SeatFrontRight
 		{
-			xywh = -0.7816 0.8506 0.5402 0.6897,
+			xywh = -0.7816 0.4023 0.5402 0.6897,
 		}
 
 		area GasTank
 		{
-			xywh = 0.7816 -1.4368 0.5402 0.5402,
+			xywh = 0.7816 -1.9310 0.5402 0.5402,
 		}
 
 		area TireFrontLeft
 		{
-			xywh = 0.7816 1.4655 0.5402 0.5402,
+			xywh = 0.7816 1.0345 0.5402 0.5402,
 		}
 
 		area TireFrontRight
 		{
-			xywh = -0.7816 1.4655 0.5402 0.5402,
+			xywh = -0.7816 1.0345 0.5402 0.5402,
 		}
 
 		area TireRearLeft
 		{
-			xywh = 0.7586 -0.6897 0.5402 0.5402,
+			xywh = 0.7586 -1.1494 0.5402 0.5402,
 		}
 
 		area TireRearRight
 		{
-			xywh = -0.7586 -0.6897 0.5402 0.5402,
+			xywh = -0.7586 -1.1494 0.5402 0.5402,
 		}
 
 		template = Trunk/part/TruckBed,
@@ -224,7 +224,7 @@ module Base
 
 			container
 			{
-				capacity = 350,
+				capacity = 400,
 			}
 		}
 
@@ -536,64 +536,64 @@ module Base
 
 		physics box
 		{
-			offset = 0.0000 0.8218 -0.6207,
-			extents = 1.2126 1.2184 2.2299,
+			offset = 0.0000 0.5461 -1.0460,
+			extents = 1.2126 0.9770 2.2299,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.4885 1.4025,
-			extents = 0.9595 0.2890 0.4046,
+			offset = 0.0000 0.3276 0.9828,
+			extents = 0.9598 0.2874 0.4138,
 			rotate = 2.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.4713 1.6727,
+			offset = 0.0000 0.3103 1.2529,
 			extents = 0.9595 0.2775 0.1850,
 			rotate = 12.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.4540 1.7244,
+			offset = 0.0000 0.2933 1.3046,
 			extents = 0.9595 0.2428 0.1734,
 			rotate = -9.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.2759 1.7646,
+			offset = 0.0000 0.1266 1.3333,
 			extents = 0.9595 0.1387 0.1734,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.7471 0.7069,
+			offset = 0.0000 0.5920 0.2815,
 			extents = 0.9598 0.2874 0.4253,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.6724 1.0000,
+			offset = 0.0000 0.5172 0.5690,
 			extents = 0.9595 0.2312 0.4046,
 			rotate = 40.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.1207 -1.7756,
+			offset = 0.0000 -0.0402 -2.2069,
 			extents = 1.2126 0.0575 0.1494,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 
 		physics box
 		{
-			offset = 0.0000 0.4368 0.8506,
-			extents = 0.9655 0.4598 0.7126,
+			offset = 0.0000 0.2702 0.4253,
+			extents = 0.9655 0.4253 0.7126,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 
@@ -610,6 +610,11 @@ module Base
 			rotate = 0.0000 0.0000 0.0000,
 			zoffset = 1.0000,
 		}
+
+		attachment flipNode
+		{
+			offset = 0.0000 -0.3046 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
 }
-

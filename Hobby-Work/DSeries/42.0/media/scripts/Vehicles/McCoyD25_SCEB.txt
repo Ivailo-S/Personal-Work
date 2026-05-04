@@ -33,11 +33,12 @@ module Base
 	}
 	vehicle McCoyD25_SCEB
 	{
+	        zombieType = McCoys,
 		mechanicType = 2,
 		engineRepairLevel = 5,
 		playerDamageProtection = 1.0,
 		offRoadEfficiency = 1.1,
-		specialKeyRing = KeyRing_Bass;KeyRing_EagleFlag;KeyRing_EightBall;KeyRing_Panther;KeyRing_PineTree;KeyRing_RabbitFoot;KeyRing_Sexy,
+        	specialKeyRing = Base.KeyRing_PineTree,
 		specialLootChance = 40,
 
 		model

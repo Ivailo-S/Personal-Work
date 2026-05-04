@@ -45,7 +45,7 @@ module Base
 		model
 		{
 			file = PreETK2400Base,
-			scale = 1.7500,
+			scale = 1.7600,
 			offset = 0.0000 0.3086 0.0000,
 		}
 

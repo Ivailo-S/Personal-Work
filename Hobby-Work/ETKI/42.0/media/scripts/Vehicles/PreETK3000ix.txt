@@ -41,7 +41,7 @@ module Base
 		model
 		{
 			file = PreETK3000ixBase,
-			scale = 1.7500,
+			scale = 1.7600,
 			offset = 0.0000 0.3086 0.0000,
 		}
 
@@ -155,6 +155,7 @@ module Base
 
 		sound
 		{
+            		alarmLoop = VehicleAlarmA VehicleAlarmB VehicleAlarmC VehicleAlarmD VehicleAlarmE,
 			engine = VehicleEngineCarNormal,
 			engineStart = VehicleEngineCarNormal,
 			engineTurnOff = VehicleEngineCarNormal,
@@ -454,6 +455,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreETK3000ixFL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -462,6 +465,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreETK3000ixFR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -470,6 +475,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreETK3000ixRL,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -478,6 +485,8 @@ module Base
 			model InflatedTirePlusWheel
 			{
 				file = PreETK3000ixRR,
+				offset = 0.0000 0.0000 0.0000,
+				rotate = 0.0000 0.0000 0.0000,
 			}
 		}
 
@@ -485,6 +494,56 @@ module Base
 		template = Suspension,
 		template = Radio,
 		template = Headlight,
+		useChassisPhysicsCollision = false,
+
+		physics box
+		{
+			offset = 0.0000 0.0857 0.0000,
+			extents = 0.8686 0.1714 2.4571,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3829 -0.1657,
+			extents = 0.8686 0.4229 0.6514,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.2229 -1.0744,
+			extents = 0.8686 0.1714 0.1714,
+			rotate = 20.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.2287 0.8171,
+			extents = 0.8686 0.1714 0.7429,
+			rotate = 7.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.2343 -0.8003,
+			extents = 0.8686 0.2286 0.6400,
+			rotate = -3.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3647 -0.6286,
+			extents = 0.8686 0.2286 0.5143,
+			rotate = -31.0000 0.0000 0.0000,
+		}
+
+		physics box
+		{
+			offset = 0.0000 0.3680 0.3371,
+			extents = 0.8686 0.1714 0.5714,
+			rotate = 33.0000 0.0000 0.0000,
+		}
 
 		attachment trailer
 		{

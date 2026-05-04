@@ -2,25 +2,25 @@ if VehicleZoneDistribution then
 
 VehicleZoneDistribution.parkingstall.vehicles["Base.XT4Hopper"] = {index = -1, spawnChance = 2};
 VehicleZoneDistribution.parkingstall.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 1.5};
-VehicleZoneDistribution.parkingstall.vehicles["Base.LXT4Hopper"] = {index = -1, spawnChance = 2};
-VehicleZoneDistribution.parkingstall.vehicles["Base.LXT6Hopper"] = {index = -1, spawnChance = 1.5};
+VehicleZoneDistribution.parkingstall.vehicles["Base.LXT4Hopper"] = {index = -1, spawnChance = 1.75};
+VehicleZoneDistribution.parkingstall.vehicles["Base.LXT6Hopper"] = {index = -1, spawnChance = 1.25};
 VehicleZoneDistribution.parkingstall.vehicles["Base.ZXT6Hopper"] = {index = -1, spawnChance = 0.5};
 VehicleZoneDistribution.parkingstall.vehicles["Base.DuneHopper"] = {index = -1, spawnChance = 0.5}; 
 VehicleZoneDistribution.parkingstall.vehicles["Base.SportHopper"] = {index = -1, spawnChance = 0.5};
 
-VehicleZoneDistribution.trailerpark.vehicles["Base.XT4Hopper"] = {index = -1, spawnChance = 2};
-VehicleZoneDistribution.trailerpark.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 1.5};
+VehicleZoneDistribution.trailerpark.vehicles["Base.XT4Hopper"] = {index = -1, spawnChance = 1.75};
+VehicleZoneDistribution.trailerpark.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 1.25};
 VehicleZoneDistribution.trailerpark.vehicles["Base.LXT4Hopper"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.trailerpark.vehicles["Base.LXT6Hopper"] = {index = -1, spawnChance = 0.5};
 VehicleZoneDistribution.trailerpark.vehicles["Base.RangerHopper"] = {index = -1, spawnChance = 1};
 
-VehicleZoneDistribution.bad.vehicles["Base.XT4Hopper"] = {index = -1, spawnChance = 2};
-VehicleZoneDistribution.bad.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 1.5};
+VehicleZoneDistribution.bad.vehicles["Base.XT4Hopper"] = {index = -1, spawnChance = 1.75};
+VehicleZoneDistribution.bad.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 1.25};
 VehicleZoneDistribution.bad.vehicles["Base.LXT4Hopper"] = {index = -1, spawnChance = 1};
 VehicleZoneDistribution.bad.vehicles["Base.LXT6Hopper"] = {index = -1, spawnChance = 0.5};
 
 VehicleZoneDistribution.medium.vehicles["Base.XT4Hopper"] = {index = -1, spawnChance = 2.5};
-VehicleZoneDistribution.medium.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 3.5};
+VehicleZoneDistribution.medium.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 2.5};
 VehicleZoneDistribution.medium.vehicles["Base.LXT4Hopper"] = {index = -1, spawnChance = 2};
 VehicleZoneDistribution.medium.vehicles["Base.LXT6Hopper"] = {index = -1, spawnChance = 2};
 VehicleZoneDistribution.medium.vehicles["Base.ZXT6Hopper"] = {index = -1, spawnChance = 0.5};
@@ -34,6 +34,14 @@ VehicleZoneDistribution.good.vehicles["Base.LXT6Hopper"] = {index = -1, spawnCha
 VehicleZoneDistribution.good.vehicles["Base.ZXT6Hopper"] = {index = -1, spawnChance = 1.5};
 VehicleZoneDistribution.good.vehicles["Base.DuneHopper"] = {index = -1, spawnChance = 1.5};
 VehicleZoneDistribution.good.vehicles["Base.SportHopper"] = {index = -1, spawnChance = 2.5};
+
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.XT4Hopper"] = {index = -1, spawnChance = 0.5};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.XT6Hopper"] = {index = -1, spawnChance = 0.5};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.LXT4Hopper"] = {index = -1, spawnChance = 1};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.LXT6Hopper"] = {index = -1, spawnChance = 1};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.ZXT6Hopper"] = {index = -1, spawnChance = 5};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.DuneHopper"] = {index = -1, spawnChance = 2.5};
+VehicleZoneDistribution.luxuryDealership.vehicles["Base.SportHopper"] = {index = -1, spawnChance = 2.5};
 
 VehicleZoneDistribution.sport.vehicles["Base.SportHopper"] = {index = -1, spawnChance = 10};
 

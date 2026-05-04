@@ -91,4 +91,6 @@ VehicleZoneDistribution.police.specialCar = true;
 VehicleZoneDistribution.fire.vehicles["Base.RoamerFire"] = {index = -1, spawnChance = 30};
 VehicleZoneDistribution.fire.specialCar = true;
 
+VehicleZoneDistribution.airportservice.vehicles["Base.RoamerAirportSecurity"] = {index = -1, spawnChance = 20};
+
 end

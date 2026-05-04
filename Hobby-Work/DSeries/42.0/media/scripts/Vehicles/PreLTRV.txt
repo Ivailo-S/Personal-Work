@@ -37,8 +37,6 @@ module Base
 		engineRepairLevel = 6,
 		playerDamageProtection = 1.0,
 		offRoadEfficiency = 1.4,
-		specialKeyRing = KeyRing_Bass;KeyRing_EagleFlag;KeyRing_EightBall;KeyRing_Panther;KeyRing_PineTree;KeyRing_RabbitFoot;KeyRing_Sexy,
-		specialLootChance = 40,
 
 		model
 		{
@@ -61,8 +59,8 @@ module Base
 		textureLights = vehicles/PreCharroLights,
 		textureDamage1Overlay = vehicles/PreGavrilCharroBlood,
 		textureDamage2Overlay = vehicles/PreGavrilCharroBlood,
-		textureDamage1Shell = vehicles/PreGavrilLTRVLD,
-		textureDamage2Shell = vehicles/PreGavrilLTRVHD,
+		textureDamage1Shell = vehicles/PreLTRVLD,
+		textureDamage2Shell = vehicles/PreLTRVHD,
 		textureRust = vehicles/CharroRust,
 
 		sound

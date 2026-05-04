@@ -37,6 +37,9 @@ module Base
 		engineRepairLevel = 6,
 		playerDamageProtection = 1.3,
 		offRoadEfficiency = 1.2,
+		specialKeyRing = KeyRing_Bass;KeyRing_EagleFlag;KeyRing_EightBall;KeyRing_Panther;KeyRing_PineTree;KeyRing_RabbitFoot;KeyRing_Sexy,
+		specialLootChance = 40,
+
 
 		model
 		{
@@ -135,6 +138,7 @@ module Base
 
 		sound
 		{
+			alarmLoop = VehicleAlarmA VehicleAlarmB VehicleAlarmC VehicleAlarmD VehicleAlarmE,
 			engine = VehicleEngineSUV,
 			engineStart = VehicleEngineSUV,
 			engineTurnOff = VehicleEngineSUV,

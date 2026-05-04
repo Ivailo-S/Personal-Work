@@ -754,6 +754,128 @@ VehicleDistributions.KnoxDistilleryTruck = {
 	SeatFrontRight = VehicleDistributions.KnoxDistilleryTruckSeat;
 }
 
+-- And last not but least is the airport catering box truck, in which case is just the same as the stepvan distro, just with more stuff in the back (of course).
+
+VehicleDistributions.AirportTruckCateringGloveBox = {
+	rolls = 1,
+	items = {
+		"BottleOpener", 4,
+		"CigarettePack", 8,
+		"Clipboard", 10,
+		"Corkscrew", 4,
+		"DishCloth", 10,
+		"Flask", 0.5,
+		"Lunchbag", 4,
+		"Lunchbox", 2,
+		"Lunchbox2", 0.01,
+		"Magazine_Popular", 10,
+		"MarkerBlack", 4,
+		"Notepad", 10,
+		"Paperback", 4,
+		"Paperback_Diet", 8,
+		"PaperNapkins2", 20,
+		"Paperwork", 10,
+		"Pencil", 10,
+		"PlasticFork", 20,
+		"PlasticKnife", 20,
+		"PlasticSpoon", 20,
+		"Receipt", 10,
+	},
+	junk = ClutterTables.GloveBoxWorkJunk,
+}
+
+VehicleDistributions.AirportTruckCateringSeatFront = {
+	rolls = 1,
+	items = {
+		"Aluminum", 20,
+		"Apron_White", 8,
+		"BottleOpener", 4,
+		"Brandy", 4,
+		"Champagne", 1,
+		"CigarettePack", 8,
+		"Corkscrew", 4,
+		"DishCloth", 10,
+		"Gin", 8,
+		"MarkerBlack", 4,
+		"MuffinTray", 4,
+		"Notepad", 10,
+		"OvenMitt", 8,
+		"Pan", 4,
+		"PaperNapkins2", 20,
+		"Pencil", 10,
+		"PlasticFork", 20,
+		"PlasticKnife", 20,
+		"PlasticSpoon", 20,
+		"PlasticTray", 10,
+		"Port", 4,
+		"Receipt", 10,
+		"Rum", 8,
+		"Scotch", 4,
+		"Sheet", 4,
+		"Sherry", 4,
+		"Shoes_Black", 8,
+		"Tequila", 8,
+		"TVDinner", 20,
+		"Vermouth", 4,
+		"Vodka", 8,
+		"Whiskey", 8,
+		"Wine", 6,
+		"Wine2", 6,
+		"WineAged", 2,
+		"WineBox", 10,
+		"WineScrewtop", 10,
+	},
+	junk = ClutterTables.SeatFrontJunk,
+}
+
+VehicleDistributions.AirportTruckCateringTruckBed = {
+	rolls = 10,
+	items = {
+		"Aluminum", 20,
+		"Apron_White", 8,
+		"BottleOpener", 4,
+		"Brandy", 4,
+		"Champagne", 1,
+		"Corkscrew", 1,
+		"DishCloth", 10,
+		"Gin", 8,
+		"MuffinTray", 4,
+		"OvenMitt", 8,
+		"PaperNapkins2", 20,
+		"PlasticFork", 20,
+		"PlasticKnife", 20,
+		"PlasticSpoon", 20,
+		"PlasticTray", 10,
+		"PlasticTray", 20,
+		"Port", 4,
+		"Rum", 8,
+		"Scotch", 4,
+		"Sheet", 4,
+		"Sherry", 4,
+		"Tequila", 8,
+		"TVDinner", 20,
+		"Vermouth", 4,
+		"Vodka", 8,
+		"Whiskey", 8,
+		"Wine", 6,
+		"Wine2", 6,
+		"WineAged", 2,
+		"WineBox", 10,
+		"WineScrewtop", 10,
+	},
+	junk = ClutterTables.TrunkJunk,
+}
+
+VehicleDistributions.AirportCateringTruck = {
+	TruckBed = VehicleDistributions.AirportTruckCateringTruckBed;
+
+	GloveBox = VehicleDistributions.AirportTruckCateringGloveBox;
+
+	SeatFrontLeft = VehicleDistributions.DriverSeat;
+	SeatFrontRight = VehicleDistributions.AirportTruckCateringSeatFront;
+}
+
+
 -- Next, we create all the unique truck loot tables, assigned accordingly below
 
 local newVehicleDistribution = {
@@ -793,6 +915,11 @@ local newVehicleDistribution = {
 		Specific = {},
 	},
 
+	AirportCateringTruck = {
+		Normal = VehicleDistributions.AirportCateringTruck,
+		Specific = {},
+	},
+
 	Charro = {
 		Normal = VehicleDistributions.NormalHeavy,
 		Specific = { VehicleDistributions.Hunter, VehicleDistributions.Fisherman, VehicleDistributions.Survivalist, VehicleDistributions.Adventurer, VehicleDistributions.Bandit },
@@ -817,6 +944,8 @@ distributionTable["FleetD15_SCEB"] = newVehicleDistribution["FleetTruck"]
 distributionTable["FleetD15_ECSB"] = newVehicleDistribution["FleetTruck"]
 distributionTable["FossoilD15_SCEB"] = distributionTable["PickUpTruckLightsFossoil"]
 distributionTable["FossoilD15_ECSB"] = distributionTable["PickUpTruckLightsFossoil"]
+distributionTable["AirportServiceD15_SCEB"] = distributionTable["PickUpTruckLightsAirport"]
+distributionTable["AirportSecurityD15_SCEB"] = distributionTable["PickUpTruckLightsAirport"]
 distributionTable["McCoyD15_SCEB"] = distributionTable["PickUpTruckMccoy"]
 distributionTable["McCoyD15_ECSB"] = distributionTable["PickUpTruckMccoy"]
 distributionTable["PreD15_SCSB"] = distributionTable["PickUpTruck"]
@@ -826,6 +955,7 @@ distributionTable["PreD15_4WDSCSB"] = distributionTable["PickUpTruck"]
 distributionTable["PostD15_4WDSCSB"] = distributionTable["PickUpTruck"]
 distributionTable["PreD15_SCEB"] = distributionTable["PickUpTruck"]
 distributionTable["PostD15_SCEB"] = distributionTable["PickUpTruck"]
+distributionTable["FireD15_SCEB"] = distributionTable["PickUpVanLightsFire"]
 distributionTable["PreD15_ECSB"] = distributionTable["PickUpTruck"]
 distributionTable["PostD15_ECSB"] = distributionTable["PickUpTruck"]
 distributionTable["PostD15_4WDECSB"] = distributionTable["PickUpTruck"]
@@ -856,6 +986,7 @@ distributionTable["PreDuallyD35_ECEB"] = newVehicleDistribution["FleetTruck"]
 distributionTable["PostDuallyD35_ECEB"] = newVehicleDistribution["FleetTruck"]
 distributionTable["RancherDuallyD35_ECEB"] = newVehicleDistribution["FleetTruck"]
 distributionTable["FleetBoxTruckD45"] = distributionTable["StepVan"]
+distributionTable["AirportCateringBoxTruckD45"] = newVehicleDistribution["AirportCateringTruck"]
 distributionTable["GenFacBoxTruckD45"] = newVehicleDistribution["GenFacTruck"]
 distributionTable["GigaMartBoxTruckD45"] = newVehicleDistribution["GigaMartTruck"]
 distributionTable["KnoxDistilleryBoxTruckD45"] = newVehicleDistribution["KnoxDistilleryTruck"]

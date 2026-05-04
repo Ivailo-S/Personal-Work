@@ -64,6 +64,8 @@ SetArmor("PostLeGranSport","PU_Armor_LeGranSed");
 SetArmor("PostLeGranSportV6","PU_Armor_LeGranSed");
 SetArmor("PostLeGranTaxi","PU_Armor_LeGranSed");
 SetArmor("PostLeGranTaxiWagon","PU_Armor_LeGranSed");
+SetArmor("AltLeGranTaxi","PU_Armor_LeGranSed");
+SetArmor("AltLeGranTaxiWagon","PU_Armor_LeGranSed");
 SetArmor("LeGranPolice","PU_Armor_LeGranSed");
 SetArmor("LeGranFire","PU_Armor_LeGranOffroad");
 SetArmor("LeGranUndercover","PU_Armor_LeGranSed");
@@ -165,6 +167,7 @@ SetArmor("GavrilGrandMarshalBulletinCounty","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalRanger","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalUndercover","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalTaxi","PU_Armor_Gavril");
+SetArmor("GavrilGrandMarshalLVTaxi","PU_Armor_Gavril");
 SetArmor("GavrilGrandMarshalLimo","PU_Armor_GavrilLimo");
 SetArmor("GavrilGrandMarshalLuxeLimo","PU_Armor_GavrilLimo");
 

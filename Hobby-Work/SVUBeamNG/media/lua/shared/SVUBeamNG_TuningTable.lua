@@ -1009,6 +1009,8 @@ local function SVU_TuningTable()
 	NewCarTuningTable["PostLeGranSportV6"] = NewCarTuningTable["5DoorSedan"]
 	NewCarTuningTable["PostLeGranTaxi"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["PostLeGranTaxiWagon"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["AltLeGranTaxi"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
+	NewCarTuningTable["AltLeGranTaxiWagon"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["LeGranPolice"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["LeGranFire"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["LeGranUndercover"] = NewCarTuningTable["5DoorVehicleWithBullbar"]
@@ -1103,6 +1105,7 @@ local function SVU_TuningTable()
 	NewCarTuningTable["GavrilGrandMarshalRanger"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalInterceptor"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalTaxi"] = NewCarTuningTable["5DoorVehicleWithLightbar"]
+	NewCarTuningTable["GavrilGrandMarshalLVTaxi"] = NewCarTuningTable["5DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["GavrilGrandMarshalLimo"] = NewCarTuningTable["Limousine"]
 	NewCarTuningTable["GavrilGrandMarshalLuxeLimo"] = NewCarTuningTable["Limousine"]
 
@@ -1138,13 +1141,13 @@ local function SVU_TuningTable()
 
 	-- Ibishu Hopper
 
-	NewCarTuningTable["XT4Hopper"] = NewCarTuningTable["3DoorVehicle"]
-	NewCarTuningTable["XT6Hopper"] = NewCarTuningTable["3DoorVehicle"]
+	NewCarTuningTable["XT4Hopper"] = NewCarTuningTable["3DoorVehicleWithLightbar"]
+	NewCarTuningTable["XT6Hopper"] = NewCarTuningTable["3DoorVehicleWithLightbar"]
 	NewCarTuningTable["LXT4Hopper"] = NewCarTuningTable["3DoorVehicle"]
 	NewCarTuningTable["LXT6Hopper"] = NewCarTuningTable["3DoorVehicle"]
 	NewCarTuningTable["ZXT6Hopper"] = NewCarTuningTable["3DoorVehicle"]
-	NewCarTuningTable["SportHopper"] = NewCarTuningTable["3DoorVehicle"]
-	NewCarTuningTable["DuneHopper"] = NewCarTuningTable["3DoorVehicle"]
+	NewCarTuningTable["SportHopper"] = NewCarTuningTable["3DoorVehicleWithLightbar"]
+	NewCarTuningTable["DuneHopper"] = NewCarTuningTable["3DoorVehicleWithLightbar"]
 	NewCarTuningTable["SheriffHopper"] = NewCarTuningTable["3DoorVehicleWithLightbarAndBullbar"]
 	NewCarTuningTable["RangerHopper"] = NewCarTuningTable["3DoorVehicleWithLightbar"]
 
