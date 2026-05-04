@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/simpleListView"
+        android:layout_width="220dp"
+        android:layout_height="596dp"
+        android:layout_marginTop="136dp"
+        android:divider="@color/material_blue_grey_800"
+        android:dividerHeight="1dp"
+        app:layout_constraintEnd_toEndOf="@id/frameLayout"
+        app:layout_constraintTop_toTopOf="@id/frameLayout" />
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="410dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#673AB7"
+        android:backgroundTintMode="add"
+        android:foregroundTint="#673AB7"
+        android:foregroundTintMode="add"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/loaddatabasetitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Welcome to my incredible database accessor!"
+            android:textAlignment="center"
+            android:textSize="34sp" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/addViewer"
+        android:layout_width="155dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="#3F51B5"
+        android:text="Add Data"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="155dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="180dp"
+        android:backgroundTint="#F44336"
+        android:text="Exit"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/loadViewer" />
+
+    <Button
+        android:id="@+id/editViewer"
+        android:layout_width="155dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#4CAF50"
+        android:text="Edit Data"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/addViewer" />
+
+    <Button
+        android:id="@+id/loadViewer"
+        android:layout_width="155dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#9C27B0"
+        android:text="Load Data"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/editViewer" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

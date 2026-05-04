@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8e8a84"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/addQuote"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="232dp"
+        android:layout_marginBottom="24dp"
+        android:backgroundTint="#5a6d61"
+        android:onClick="addQuotes"
+        android:text="Add Quote"
+        android:textColor="#dddddd"
+        android:textSize="14dp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/newItemField"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/newItemField"
+        android:layout_width="374dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="24dp"
+        android:hint="Enter a new quote here"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/titleText"
+        android:layout_width="348dp"
+        android:layout_height="27dp"
+        android:text="Welcome to the Random Quote Generator!"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.068" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="232dp"
+        android:layout_marginBottom="168dp"
+        android:backgroundTint="#5a6d61"
+        android:onClick="GenerateRandomQuote"
+        android:text="Generate Quote"
+        android:textColor="#dddddd"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/quoteView"
+        android:layout_width="370dp"
+        android:layout_height="324dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="76dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
