@@ -1,0 +1,11 @@
+IG_UI_EN = {
+	IGUI_VehicleNameLiftBX240DX = "Ibishu 240BX DX"
+	IGUI_VehicleNameCoupeBX240DX = "Ibishu 240BX DX"
+	IGUI_VehicleNameLiftBX240LX = "Ibishu 240BX LX"
+	IGUI_VehicleNameCoupeBX240LX = "Ibishu 240BX LX"
+	IGUI_VehicleNameBX240LXz = "Ibishu 240BX LXz"
+	IGUI_VehicleNameBX240GTz = "Ibishu 240BX GTz Turbo"
+	IGUI_VehicleNamePoliceBX = "Ibishu 240BX Interceptor"
+	IGUI_VehicleNameDianaBXLS = "Diana Type-LS"
+	IGUI_VehicleNameDianaBXGTz = "Diana GTz Turbo"
+}

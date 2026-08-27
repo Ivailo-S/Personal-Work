@@ -1,0 +1,10 @@
+name=Ibishu BX-Series [Full]
+id=IbishuBXAnim
+description=Introduces the exciting but otherwise unassuming sports/economy car to the streets and driveways of Kentucky. SENTENCE1
+description=<BR>
+description=This variant of the mod uses Tsar's Common Library to feature animated pop-up headlights for the BX-Series. It's objectively the cooler version, but it can be prone to certain 'oddities'. SENTENCE2
+description=<BR>
+description=<PUSHRGB:1,0.1,0.1>Please ensure that you're ONLY running ONE of these BX variants (for obvious reasons).
+require=\tsarslib
+poster=preview.png
+icon=icon.png

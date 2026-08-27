@@ -1,0 +1,9 @@
+ISCarMechanicsOverlay.CarList["Base.LiftBX240DX"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.CoupeBX240DX"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.LiftBX240LX"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.CoupeBX240LX"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.BX240LXz"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.BX240GTz"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.PoliceBX"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.DianaBXLS"] = {imgPrefix = "sportscar_", x=10,y=0};
+ISCarMechanicsOverlay.CarList["Base.DianaBXGTz"] = {imgPrefix = "sportscar_", x=10,y=0};

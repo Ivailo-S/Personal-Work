@@ -1,0 +1,14 @@
+version=1
+id=3386791389
+title=BeamNG Standardized Vehicle Upgrades
+description=[h1]Tested to work for Build 42 Stable! (Use with Caution)[/h1]
+description=
+description=[h1]Please note that this mod does use [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3304580957]SVU3[/url] and [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2392709985]Tsarslib[/url], along with its [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3402491515]B42[/url] [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3403490889]counterparts[/url] in order to function for the associated build you are running. Please ensure you have these mods first.[/h1] 
+description=
+description=This add-on compiles and adds support to all of the BeamNG vehicles into Jack Rossman's SVU3 armor mod, including support for both B41 and B42. Featuring an incredibly simple framework that allows any and all BeamNG vehicles to be upgraded with both light and heavy armor options across the entire lineup, it acts as the standard groundwork for all SVU-related support, while facilitating plenty more support for the years to come. Thank you, and enjoy!
+description=
+description=[b]Like my work? I got one of those things where you can donate caffeine to fuel my long sleepless nights of toiling away at this stuff![/b]
+description=
+description=[url=buymeacoffee.com/ivailo.s][img]https://i.imgur.com/wjK1frv.png[/img][/url]
+tags=Build 41;Build 42;Vehicles
+visibility=public

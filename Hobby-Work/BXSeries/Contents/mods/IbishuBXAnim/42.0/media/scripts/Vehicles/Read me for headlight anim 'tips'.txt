@@ -1,0 +1,21 @@
+So: If you were looking for a particular script or something that explicitly controls all the headlight animations, you don't need anything more than what you can find in these scripts here. You just need the declaration for the headlight model and car body, along with specifying the animation to the headlight. That's literally it.
+
+The issue here though; is Blender is incredibly fussy and if not, downright belligerent in its exporting process that you literally can't tell if what you're doing works or not.
+
+Some basic tips to follow, since it kinda worked for me:
+
+- Use an armature for the animations, DON'T just keyframe it in the object properties. You can use a single bone for the headlight mesh, but you can be more 'complex' and use two, like I did.
+
+- Ensure that you have parented EVERYTHING related to your mesh to that armature skeleton, regardless if it actually has animations or not. You should (probably) be able to see how I structured it if you import one of the BX models into Blender to see what I mean.
+
+- For the export itself: Ensure the Apply Unit, Use Space Transform, and Apply Transformation are all ticked on. In the Armature tab, enable 'Only Deform Bones', and disable 'Add Leaf Bones'.
+
+- If your model is invisible for whatever reason, check the UV Map and/or Material of all meshes exported. If they don't all match, everything implodes.
+
+- If still invisible, try just exporting the whole project (or what's visible), rather than 'Selected Objects' if you've been doing it that way.
+
+- If in the rare instance it could be a scripting 'error'; check if the exported model has the entity names that can be found in the script. You can use online tools that can open the exported model to check the entity names to ensure they are being read correctly from the game.
+
+Hopefully this should be some help, but there might be multiple edge cases I missed here, just because of how convoluted it all is. I hated it, and I only hope that this makes you hate it a bit less.
+
+(Note to self: it may also be possible to export the headlights just as an isolated 3D model, and refer that to every single car to save on the redundancy of this implementation. This way may also provide less headaches since it will only be a single point of failure, especially when done at scale like this mod.)

@@ -1,0 +1,7 @@
+name=Ibishu BX-Series [Lite]
+id=IbishuBXFixed
+description=Introduces the exciting but otherwise unassuming sports/economy car to the streets and driveways of Kentucky.
+description= This variant of the mod keeps the headlights fixed in an upright position, since Zomboid doesn't support animated pop-ups on their own. For a more stable, vanilla experience, you can use this one.
+description= Please ensure that you're ONLY running ONE of these BX variants (for obvious reasons).
+poster=preview.png
+icon=icon.png

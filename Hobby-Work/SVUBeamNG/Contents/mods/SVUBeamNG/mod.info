@@ -1,0 +1,8 @@
+name=Standardized Vehicle Upgrades - BeamNG Add-On
+id=StandardizedVehicleUpgradesBeamNG
+description=Adds armor support to the entire BeamNG catalogue via Nightscale's Standardized Vehicle Upgrades. Now new and improved!
+description= This add-on uses the core framework of Jack Rossman's third iteration of SVU, both the B41 and B42 versions. If you don't see the right dependency in your modlist, make sure you got the correct mod for which build you're on. Both use the same dependency ID, so don't use the wrong one for the wrong build!
+description= This mod will also update relatively frequently along with any other BeamNG cars I intend to make, so it's just better that it's all consolidated like this.
+description= Thank you for reading this long-winded description, let me know if anything about it doesn't exactly work, and most importantly; have fun!
+poster=poster.png
+require=tsarslib,StandardizedVehicleUpgrades3Core

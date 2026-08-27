@@ -1,0 +1,311 @@
+module Base
+{
+	model PU_FL_Window_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_FR_Window_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_R_Window_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowlightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_FL_Window_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_FR_Window_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	model PU_F_Window_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_R_Window_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|windowheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Chains_FL_Farmhand
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+	model PU_Chains_FR_Farmhand
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+
+	model PU_Chains_RL_Farmhand
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+    }
+
+	model PU_Chains_RR_Farmhand
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|chaintires,
+        texture = Vehicles/puv_parts,
+        scale = 0.0035,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|hoodlightfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Trunk_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|trunklightrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FL_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FR_Farmhand_Light
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|doorfrontlightleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	model PU_Hood_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|hoodheavyfront,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Trunk_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|trunkheavyrear,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FL_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+    }
+
+	model PU_Door_FR_Farmhand_Heavy
+    {
+        mesh = vehicles/DSeriesFarmhandArmor|doorfrontheavyleft,
+        texture = Vehicles/puv_parts,
+        scale = 0.004,
+        invertX = TRUE,
+    }
+
+	template vehicle PU_Armor_Farmhand
+	{
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontLeft,
+		part ATA2ProtectionWindowFrontLeft
+		{
+			model Light
+			{
+				file = PU_FL_Window_Farmhand_Light,
+			}
+			model Heavy
+			{
+				file = PU_FL_Window_Farmhand_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindowFrontRight,
+		part ATA2ProtectionWindowFrontRight
+		{
+			model Light
+			{
+				file = PU_FR_Window_Farmhand_Light,
+			}
+			model Heavy
+			{
+				file = PU_FR_Window_Farmhand_Heavy,
+			}
+		}
+
+        template = ATA2Protection/part/ATA2ProtectionWindshield,
+        part ATA2ProtectionWindshield
+        {
+            model Light
+            {
+                file = PU_F_Window_Farmhand_Light,
+            }
+            model Heavy
+            {
+                file = PU_F_Window_Farmhand_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWindshieldRear,
+        part ATA2ProtectionWindshieldRear
+        {
+            model Light
+            {
+                file = PU_R_Window_Farmhand_Light,
+            }
+            model Heavy
+            {
+                file = PU_R_Window_Farmhand_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionTrunk,
+        part ATA2ProtectionTrunk
+        {
+            model Light
+            {
+                file = PU_Trunk_Farmhand_Light,
+            }
+            model Heavy
+            {
+                file = PU_Trunk_Farmhand_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontLeft,
+        part ATA2ProtectionDoorFrontLeft
+        {
+            model Light
+            {
+                file = PU_Door_FL_Farmhand_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FL_Farmhand_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionDoorFrontRight,
+        part ATA2ProtectionDoorFrontRight
+        {
+            model Light
+            {
+                file = PU_Door_FR_Farmhand_Light,
+            }
+            model Heavy
+            {
+                file = PU_Door_FR_Farmhand_Heavy,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionHood,
+        part ATA2ProtectionHood
+        {
+            model Light
+            {
+                file = PU_Hood_Farmhand_Light,
+            }
+            model Heavy
+            {
+                file = PU_Hood_Farmhand_Heavy,
+            }
+        }
+
+        part Tire*
+        {
+            setAllModelsVisible = false,
+            table install
+            {
+                complete = ATATuning2.InstallComplete.TireNotAllModelsVisible,
+            }
+            
+            table uninstall
+            {
+                complete = ATATuning2.UninstallComplete.TireNotAllModelsVisible,
+            }
+            
+            lua
+            {
+                create = ATATuning2.Create.TireNotAllModelsVisible,
+                init = ATATuning2.Init.TireNotAllModelsVisible,
+                checkOperate = Vehicles.CheckOperate.Tire,
+                update = Vehicles.Update.Tire,
+            }
+        }
+
+        template = ATA2Protection/part/ATA2ProtectionWheels,
+        part TireFrontLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FL_Farmhand,
+            }
+        }
+
+        part TireRearLeft
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RL_Farmhand,
+            }
+        }
+
+        part TireFrontRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_FR_Farmhand,
+            }
+        }
+
+        part TireRearRight
+        {
+            model ATAProtection
+            {
+                file = PU_Chains_RR_Farmhand,
+            }
+        }
+
+	}
+}
